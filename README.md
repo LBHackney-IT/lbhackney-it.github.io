@@ -1,6 +1,6 @@
 
 
-<h3Hackney Git Hub Repository</h3>
+<h3> Hackney Git Hub Repository</h3>
 
 This is Hackney's git hub repository where we would like to share our work to the citizens of Hackney that use our services. We encourage your feedback and suggestions on these repository. Content and feature suggestions and discussions are welcome via GitHub Issues on individual repositories. You may also propose changes to the content directly by submitting a pull request. Feedback collected will be considered for inclusion in the next release of the Hackney Services.
 
