@@ -1,0 +1,22 @@
+* {
+  font-family:'Open sans', sans-serif;
+  color:#0b0c0c;
+}
+body { max-width: 1000px;
+       margin: 30px auto;
+}
+
+@media screen and (min-width: 800px) {
+      body { margin: 60px auto;}
+}
+
+a { color: #00664f;
+    text-decoration:none;
+}
+
+a:hover {text-decoration: underline;
+}
+
+h1{
+  font-size: 3rem;
+}
