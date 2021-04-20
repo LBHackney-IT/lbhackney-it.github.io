@@ -64,7 +64,7 @@ ul a {
   .jumbo-container * {
     color: white !important; }
   .jumbo-container img {
-    width: 150px;
+    width: 250px;
     height: auto; }
   .jumbo-container h1:hover {
     text-decoration: none; }
@@ -110,9 +110,8 @@ h2:hover {
 @media (max-width: 800px) {
   .span-wrapper {
     width: 500px !important; } }
-
 @media (max-width: 554px) {
-    .span-wrapper {
-      width: 300px !important; } }
+  .span-wrapper {
+    width: 300px !important; } }
 
 /*# sourceMappingURL=style.css.map */
