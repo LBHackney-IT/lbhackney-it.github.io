@@ -48,7 +48,7 @@ span {
   background: white;
   border: 2px solid #00664f;
   border-radius: 12px;
-  height: 220px; }
+  height: 245px; }
   .feature * {
     color: #00664f !important; }
   .feature h2 {
@@ -57,7 +57,8 @@ span {
 ul a {
   text-decoration: none !important; }
   ul a:hover {
-    text-decoration: underline !important; }
+    text-decoration: underline !important;
+  }
 
 .jumbo-container {
   padding: 70px; }
@@ -79,10 +80,12 @@ ul a {
 
 a {
   color: #00664f;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+ }
 
 .footer_copyright {
   width: 100vw; }
@@ -92,10 +95,12 @@ h1 {
 
 h1:hover {
   text-decoration: underline;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 h2:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .footer_copyright {
   height: 80px;
@@ -109,9 +114,9 @@ h2:hover {
 
 @media (max-width: 800px) {
   .span-wrapper {
-    width: 500px !important; } }
-@media (max-width: 554px) {
+    width: 520px !important; } }
+@media (max-width: 584px) {
   .span-wrapper {
-    width: 300px !important; } }
+    width: 320px !important; } }
 
 /*# sourceMappingURL=style.css.map */
