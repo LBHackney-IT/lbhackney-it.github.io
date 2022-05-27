@@ -120,6 +120,7 @@ a:hover {text-decoration: underline;
 
 .footer_copyright {
   width: 100vw;
+  text-decoration: none;
 }
 
 h1{
@@ -138,8 +139,9 @@ h2:hover {cursor: pointer;
   height:80px;
   background-color:#0b0c0c;
   text-align:center;
+  font-size: large;
   span {
-    font-size: 1rem !important;
+    // font-size: 1rem !important;
     position: relative;
     top: calc(50% - 0.8rem);
     color:white;
