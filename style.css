@@ -48,7 +48,7 @@ span {
   background: white;
   border: 2px solid #00664f;
   border-radius: 12px;
-  height: 245px; }
+}
   .feature * {
     color: #00664f !important; }
   .feature h2 {
@@ -105,9 +105,9 @@ h2:hover {
 .footer_copyright {
   height: 80px;
   background-color: #0b0c0c;
-  text-align: center; }
+  text-align: center;}
   .footer_copyright span {
-    font-size: 1rem !important;
+    font-size: 20px !important;
     position: relative;
     top: calc(50% - 0.8rem);
     color: white; }
