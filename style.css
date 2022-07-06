@@ -147,3 +147,8 @@ span.brand-text {
 .footer *:hover {
   color: #bfc1c3;
 }
+
+/* Contact Us */
+h1#contact-us {
+  line-height: normal;
+}
