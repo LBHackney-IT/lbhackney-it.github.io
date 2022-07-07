@@ -1,122 +1,154 @@
+/* Config */
+
 * {
   font-family: 'Open sans', sans-serif;
   color: #0b0c0c;
-  line-height: 1.5; }
+}
 
-.bgs-primary {
-  background: #00664f !important; }
+body * {
+  overflow-x: hidden;
+}
 
-body {
-  overflow-x: hidden; }
+#root {
+  margin-top: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-h1 {
-  font-size: 3rem !important;
-  font-weight: bold !important; }
-
-h2 {
-  font-size: 1.1875rem !important;
-  font-weight: bold !important; }
-
-span {
-  font-size: 1.5rem !important;
-  font-weight: 300 !important; }
+/* Navbar */
 
 .navbar {
   width: 100vw;
-  min-height: 60px; }
-  .navbar .navbar-items {
-    position: relative;
-    background: red;
-    width: 100%; }
-  .navbar * {
-    color: black; }
-    .navbar *:hover {
-      text-decoration: none;
-      color: #00664f; }
-  .navbar .navbar-brand img {
-    height: 32px;
-    width: auto; }
-  .navbar .navbar-brand .brand-text {
-    font-weight: 600;
-    font-size: 1rem !important; }
+  min-height: 60px;
+}
 
-.spaced-features > div {
-  margin-bottom: 20px; }
+.navbar .navbar-items {
+  position: relative;
+  background: red;
+  width: 100%;
+}
+
+.navbar * {
+  color: black;
+}
+
+.navbar *:hover {
+  color: #00664f;
+}
+
+.navbar .navbar-brand img {
+  height: 32px;
+  width: auto;
+}
+
+.navbar .navbar-brand .brand-text b {
+  font-size: 1rem;
+}
+
+/* Layout */
+
+.banner-wrapper {
+  background: #00664f;
+}
+
+.features-container-wrapper {
+  padding: 40px;
+}
+
+/* Banner */
+
+.banner-container {
+  padding: 70px;
+}
+
+.banner-container * {
+  color: white;
+}
+
+.banner-container img {
+  width: 250px;
+  height: auto;
+}
+
+.banner-container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: normal;
+}
+
+span.brand-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.banner-container .span-wrapper {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  width: 750px;
+}
+
+@media (max-width: 800px) {
+  .banner-container .span-wrapper {
+    width: 520px;
+  }
+}
+@media (max-width: 584px) {
+  .banner-container .span-wrapper {
+    width: 320px;
+  }
+}
+
+/* Feature boxes */
 
 .feature {
   padding: 30px;
   background: white;
-  border: 2px solid #00664f;
+  border: 1px solid #bfc1c3;
   border-radius: 12px;
+  height: 100%;
 }
-  .feature * {
-    color: #00664f !important; }
-  .feature h2 {
-    padding-bottom: 10px; }
 
-ul a {
-  text-decoration: none !important; }
-  ul a:hover {
-    text-decoration: underline !important;
-  }
+.feature h2 {
+  padding-bottom: 10px;
+  font-size: 1.1875rem;
+  font-weight: bold;
+  color: #0b0c0c;
+}
 
-.jumbo-container {
-  padding: 70px; }
-  .jumbo-container * {
-    color: white !important; }
-  .jumbo-container img {
-    width: 250px;
-    height: auto; }
-  .jumbo-container h1:hover {
-    text-decoration: none; }
-  .jumbo-container .span-wrapper {
-    position: relative;
-    top: 15px;
-    display: inline-block;
-    width: 750px; }
-
-.features-container-wrapper {
-  padding: 40px; }
-
-a {
+.feature li, .feature li * {
   color: #00664f;
-  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
- }
-
-.footer_copyright {
-  width: 100vw; }
-
-h1 {
-  font-size: 3rem; }
-
-h1:hover {
-  text-decoration: underline;
-  cursor: pointer;
+.feature ul a:hover {
+  color: #003d2f;
+}
+.feature.contact-us *:not(a){
+  color: #0b0c0c;
 }
 
-h2:hover {
-  cursor: pointer;
-}
+/* Footer */
 
-.footer_copyright {
-  height: 80px;
+.footer {
+  width: 100vw;
   background-color: #0b0c0c;
-  text-align: center;}
-  .footer_copyright span {
-    font-size: 20px !important;
-    position: relative;
-    top: calc(50% - 0.8rem);
-    color: white; }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-@media (max-width: 800px) {
-  .span-wrapper {
-    width: 520px !important; } }
-@media (max-width: 584px) {
-  .span-wrapper {
-    width: 320px !important; } }
+.footer * {
+  color: white;
+  margin: 1.5rem;
+}
 
-/*# sourceMappingURL=style.css.map */
+.footer *:hover {
+  color: #bfc1c3;
+}
+
+/* Contact Us */
+h1#contact-us {
+  line-height: normal;
+}
