@@ -51,6 +51,9 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        googleTagManager: {
+          containerId: 'G-TB9MPCKBPC',
+        },
       }),
     ],
   ],
