@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Hackney Development System',
   tagline: 'Everything you need to build and maintain Hackney platforms and services.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://playbook.hackney.gov.uk',
@@ -74,10 +74,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Development System',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Hackney Logo',
+          src: 'img/logo-long.svg',
         },
         items: [
           {
