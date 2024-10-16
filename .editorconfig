@@ -1,0 +1,19 @@
+# EditorConfig ensures consistency: https://editorconfig.org
+# Plugins are available for all good editors (and even some
+# bad ones)
+#
+# VSCode plugin: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+# This is the top-most editorconfig file for the repository
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+# Opinionated tab/space rules, matching the Docusaurus defaults.
+indent_style = space
+indent_size = 2
