@@ -1,15 +1,12 @@
----
-id: qa_process
-title: Enhancing the Quality Assurance process in Hackney through the use of automation
----
+# Enhancing the Quality Assurance process in Hackney through the use of automation
 
 ### Cypress end-to-end testing
 
-At Hackney, we always strive to deliver high quality digital services to our residents. To achieve that, we continuously review and seek to improve our development processes and practices. 
+At Hackney, we always strive to deliver high quality digital services to our residents. To achieve that, we continuously review and seek to improve our development processes and practices.
 
-Our API development is already enhanced by strong processes such as test driven development and API integration testing. 
+Our API development is already enhanced by strong processes such as test driven development and API integration testing.
 
-A new change in our processes is the quality assurance end-to-end testing using Cypress we have introduced as part of our software delivery lifecycle. 
+A new change in our processes is the quality assurance end-to-end testing using Cypress we have introduced as part of our software delivery lifecycle.
 
 ## Current QA process
 - User stories are refined with clearly defined acceptance criteria
@@ -17,8 +14,8 @@ A new change in our processes is the quality assurance end-to-end testing using 
 - The end-to-end tests are run after each deployment to an environment, making continuous delivery only available if the tests have successfully run against the current environment.
 - Manual exploratory testing is performed on our Staging environments
 
-Click image to open in a new tab. 
-[![](./docs-images/qa_process.png)](./docs-images/qa_process.png)
+Click image to open in a new tab.
+[![](../docs-images/qa_process.png)](../docs-images/qa_process.png)
 
 ## Writing Cypress tests - the components
 ### Acceptance Criteria
@@ -46,9 +43,9 @@ These are effectively the implementation of our tests, calling on the features a
 ## Automating tests runs
 Our tests are triggered automatically after each deployment to a development, staging or production environment.
 
-To achieve that, we configured our CI/CD pipeline to invoke a separate, independent end-to-end testing pipeline at the end of each environment deployment. 
+To achieve that, we configured our CI/CD pipeline to invoke a separate, independent end-to-end testing pipeline at the end of each environment deployment.
 
-Any subsequent deployments depend on whether tests have successfully run against a given environment as the staging and production deployment pipelines only become available if the end-to-end tests have passed. 
+Any subsequent deployments depend on whether tests have successfully run against a given environment as the staging and production deployment pipelines only become available if the end-to-end tests have passed.
 
 Benefits to this process:
 - No deployment to a staging or production environment unless tests are passing.
@@ -57,16 +54,16 @@ Benefits to this process:
 
 The deployment flow goes as described below:
 - Frontend code gets deployed to development
-- CircleCI (our tool of choice for implementing our CI/CD pipeline, however, any other tool can be used to replicate this flow) triggers the end-to-end project’s pipeline as the last step of the deployment process. 
-- The end-to-end tests get run. 
+- CircleCI (our tool of choice for implementing our CI/CD pipeline, however, any other tool can be used to replicate this flow) triggers the end-to-end project’s pipeline as the last step of the deployment process.
+- The end-to-end tests get run.
 - If all tests have successfully passed, the end-to-end project’s pipeline triggers a downstream deployment - = it enables the target project’s pipeline to deploy to staging.
 - Once the staging pipeline is available, engineers manually authorise the deployment to proceed.
 - At the end of the staging deployment, the same testing process repeats and the production deployment pipeline only becomes available if the tests are successfully run against the staging environment.
 
-Click image to open in a new tab. 
-[![](./docs-images/high_level_flow.png)](./docs-images/high_level_flow.png)
+Click image to open in a new tab.
+[![](../docs-images/high_level_flow.png)](../docs-images/high_level_flow.png)
 
-This was implemented with the use of CircleCI’s API. 
+This was implemented with the use of CircleCI’s API.
 
 ```yml
 steps:
@@ -81,7 +78,7 @@ steps:
                         --data '{ "branch": "main", "parameters": { "run_development_workflow": false, '\""$DEPLOYMENT_ENVIRONMENT"\"': true } }' ;
 ```
 ## Manual QA testing
-QA engineers are still able to run their Cypress tests suite manually - this is particularly useful for running smoke tests against a production environment or tests of an individual feature only. 
+QA engineers are still able to run their Cypress tests suite manually - this is particularly useful for running smoke tests against a production environment or tests of an individual feature only.
 
 This has been achieved through the use of tags - our tests and feature files include tags, which group tests (for example accessibility tests) and give the engineers the flexibility to cherry pick what tests to run.
 
@@ -91,7 +88,7 @@ Another important part of our quality assurance process is performing manual exp
 Although end-to-end test automation is a great way to raise the confidence in a deployment and to check for bugs, manual exploratory testing can help uncover issues that could have been missed by the tests use cases.
 
 ## Conclusion
-Centralising our Cypress tests in a single repository, although they cover functionality delivered by multiple micro-frontends, stored in separate repositories, has helped us streamline and speed up the work of our QA engineers. Embedding the centralised tests into the deployment process of each individual frontend pipeline has removed the need to manually trigger tests and has provided additional assurance that deployments to staging and production environments would only happen if end-to-end tests are successfully passing. 
+Centralising our Cypress tests in a single repository, although they cover functionality delivered by multiple micro-frontends, stored in separate repositories, has helped us streamline and speed up the work of our QA engineers. Embedding the centralised tests into the deployment process of each individual frontend pipeline has removed the need to manually trigger tests and has provided additional assurance that deployments to staging and production environments would only happen if end-to-end tests are successfully passing.
 
 We always strive to continuously improve our processes, so we didn’t stop here. Some other improvements to our assurance processes include introducing vulnerability and secrets scanning, infrastructure compliance testing and contract testing. We will be sharing more details about those soon.
 

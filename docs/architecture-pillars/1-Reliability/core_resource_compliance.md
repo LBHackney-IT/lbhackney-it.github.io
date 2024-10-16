@@ -1,18 +1,15 @@
----
-id: core_resource_compliance
-title: Core AWS resources compliance checks 
----
+# Core AWS resources compliance checks
 
 ### Context
 At Hackney, we follow an infrastructure-as-code (IaC) approach and use Terraform to provision most of our AWS cloud resources. For our APIs, which are Lambda functions exposed via AWS API Gateway, we use the Serverless framework as it significantly speeds up the delivery and resource creation.  For more information please refer to [our playbook](https://playbook.hackney.gov.uk/API-Playbook/).
 
-From a Development perspective, each project manages its own Terraform files(or Serverless configuration) to provision resources for our microservices and frontend applications. Terraform is then applied automatically as part of the CI/CD pipeline workflow during deployment. 
+From a Development perspective, each project manages its own Terraform files(or Serverless configuration) to provision resources for our microservices and frontend applications. Terraform is then applied automatically as part of the CI/CD pipeline workflow during deployment.
 
-As Terraform files live in the same repository as the service, for which they are used to create cloud resources, we use our Pull Request process to identify any potential issues with changes to AWS resources or the configuration for adding new ones. Despite having a very thorough pull request process, there is still room for error if something gets missed during a review. 
+As Terraform files live in the same repository as the service, for which they are used to create cloud resources, we use our Pull Request process to identify any potential issues with changes to AWS resources or the configuration for adding new ones. Despite having a very thorough pull request process, there is still room for error if something gets missed during a review.
 
-To ensure we have security assurance in every step, we started using terraform-compliance -  a security and compliance test framework, and Serverless Safeguards to assess if changes are compliant with a predefined set of compliance rules and terminate deployment in case of a failure. 
+To ensure we have security assurance in every step, we started using terraform-compliance -  a security and compliance test framework, and Serverless Safeguards to assess if changes are compliant with a predefined set of compliance rules and terminate deployment in case of a failure.
 
-This document aims to outline the core compliance checks that **must** be performed for the various AWS resources provisioned as part of the Software Delivery Lifecycle **only** and not the wider platform. 
+This document aims to outline the core compliance checks that **must** be performed for the various AWS resources provisioned as part of the Software Delivery Lifecycle **only** and not the wider platform.
 
 
 ## Resources
@@ -24,7 +21,7 @@ Terraform compliance checks:
 
 ### API Gateway
 Serverless safeguards policies:
-1. Require Lambda authorizer for all API endpoints exposed by API Gateway with the exception of Swagger endpoints. 
+1. Require Lambda authorizer for all API endpoints exposed by API Gateway with the exception of Swagger endpoints.
     -  Example implementation [here](https://github.com/LBHackney-IT/asset-information-api/pull/51/files).
 2. Ensure cors is enabled.
 3. WAF is enabled.

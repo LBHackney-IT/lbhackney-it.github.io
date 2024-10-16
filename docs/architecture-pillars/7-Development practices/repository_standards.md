@@ -1,7 +1,4 @@
----
-id: repository_standards
-title: Managing our GitHub repositories’ branches
----
+# Managing our GitHub repositories’ branches
 
 ### Stale branches
 
@@ -14,7 +11,7 @@ Branches that have not had any commits in the last 3 months. Those are usually t
 
 **What is the problem with stale branches?**
 
-Keeping stale branches might result in a large list of available branches in a repository, making it difficult to identify branches, which contain relevant, on-going work. 
+Keeping stale branches might result in a large list of available branches in a repository, making it difficult to identify branches, which contain relevant, on-going work.
 
 **How to deal with stale branches?**
 
@@ -26,8 +23,8 @@ To reduce the number of redundant branches, all repositories must have the autom
 Once deleted, the branches can be restored at a later stage if needed.
 
 To enable automated deletion of branches, go to the repository’s ‘Settings’ page.
-![alt text](./docs-images/repo_standards1.png)
+![alt text](../docs-images/repo_standards1.png)
 
 Under “General”, navigate to the ‘Pull requests’ section and select the ‘Automatically delete head branches’ option.
- 
-![alt text](./docs-images/repo_standards2.png)
+
+![alt text](../docs-images/repo_standards2.png)

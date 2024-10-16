@@ -1,20 +1,17 @@
----
-id: minimum_qa_standard
-title: Minimum QA testing requirements in Hackney’s Software Development Lifecycle
----
+# Minimum QA testing requirements in Hackney’s Software Development Lifecycle
 
 ### Context
 This document aims at outlining what are the minimum testing and quality assurance processes that should be done for each project as part of the Software Development Lifecycle.
 
-Each product will be asked to demonstrate sufficient testing performed as per the minimum testing activities described in this document. 
+Each product will be asked to demonstrate sufficient testing performed as per the minimum testing activities described in this document.
 
 [HackIT Testing Standards](./testing_standards.md)
 
 
 ### APIs and Backend services
 Process diagram:
-Click image to open in a new tab. 
-[![](./docs-images/DevelopmentLifecycle.png)](./docs-images/DevelopmentLifecycle.png)
+Click image to open in a new tab.
+[![](../docs-images/DevelopmentLifecycle.png)](../docs-images/DevelopmentLifecycle.png)
 
 
 All APIs and Backend services must be built following the test driven development approach, as described in our [API Playbook](https://playbook.hackney.gov.uk/API-Playbook/tdd).
@@ -33,10 +30,10 @@ All APIs and Backend services must be built following the test driven developmen
 
 ### Frontend services
 Process diagram:
-Click image to open in a new tab. 
-[![](./docs-images/MFEFrontendDevelopmentLifecycle.png)](./docs-images/MFEFrontendDevelopmentLifecycle.png)
+Click image to open in a new tab.
+[![](../docs-images/MFEFrontendDevelopmentLifecycle.png)](../docs-images/MFEFrontendDevelopmentLifecycle.png)
 
-All Frontend services must have corresponding unit tests implemented as part of a Test Driven Development approach. 
+All Frontend services must have corresponding unit tests implemented as part of a Test Driven Development approach.
 
 **Tests written by:** Software engineers
 **Tests executed by:** Software engineers (as part of local testing) and CI/CD pipeline, as part of Continuous Integration
@@ -50,8 +47,8 @@ All Frontend services must have corresponding unit tests implemented as part of 
 
 ### Product testing
 Process diagram:
-Click image to open in a new tab. 
-[![](./docs-images/qa_process.png)](./docs-images/qa_process.png)
+Click image to open in a new tab.
+[![](../docs-images/qa_process.png)](../docs-images/qa_process.png)
 
 All products must implement E2E testing, using tools such as Cypress, to validate that features are correctly implemented and the frontend and backend are successfully integrated. This step is crucial for the continuous delivery phase.
 

@@ -1,7 +1,4 @@
----
-id: api_compliance
-title: API Compliance Checklist
---- 
+# API Compliance Checklist
 
 ### Context
 Every API deployed to development, staging and production environments must be compliant with the set of standards listed in this document. An API should not be promoted from one environment to another if it does not satisfy all requirements listed.
@@ -14,7 +11,7 @@ The APIs compliance checklist will be used as part of future Service Standard As
 1. The API has corresponding SwaggerHub documentation for all of the API endpoints it exposes.
 2. The API has completed the [API specification assessment process](https://playbook.hackney.gov.uk/api-specifications/assessment_process/)
 3. The API has been developed in Hackney’s preferred tech tech stack, unless otherwise agreed and as per standards defined in our [API playbook](https://playbook.hackney.gov.uk/API-Playbook/).
-4. The API has been developed following the TDD approach and has end-to-end tets in place 
+4. The API has been developed following the TDD approach and has end-to-end tets in place
     - End-to-end tests guide for DynamoDB
     - End-to-end tests guide for PostgreSQL
 5. The API has monitoring and logging tools enabled, as per defined standards.
