@@ -92,6 +92,12 @@ const config = {
             position: 'left',
             label: 'Architecture',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'apiDevelopment',
+            position: 'left',
+            label: 'API Development',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/LBHackney-IT/lbhackney-it.github.io',

@@ -23,15 +23,15 @@ const FeatureList = [
       </>
     ),
   },
-  // {
-  //   title: 'API development',
-  //   linkTo: '/api-playbook',
-  //   description: (
-  //     <>
-  //       Processes and practices we use for service and platform API development.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'API development',
+    linkTo: '/api-playbook',
+    description: (
+      <>
+        Processes and practices we use for service and platform API development.
+      </>
+    ),
+  },
   // {
   //   title: 'Frontend development',
   //   linkTo: '/micro-frontends', // TODO this should be "frontend-development", but that would break existing links. Is that a problem?
