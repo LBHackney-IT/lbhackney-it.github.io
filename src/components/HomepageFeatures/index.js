@@ -14,15 +14,15 @@ const FeatureList = [
       </>
     ),
   },
-  // {
-  //   title: 'Architecture pillars',
-  //   linkTo: '/architecture-pillars',
-  //   description: (
-  //     <>
-  //       Principles we apply across frontend and API development.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'Architecture pillars',
+    linkTo: '/architecture-pillars',
+    description: (
+      <>
+        Principles we apply across frontend and API development.
+      </>
+    ),
+  },
   // {
   //   title: 'API development',
   //   linkTo: '/api-playbook',
@@ -31,7 +31,7 @@ const FeatureList = [
   //       Processes and practices we use for service and platform API development.
   //     </>
   //   ),
-  // },  
+  // },
   // {
   //   title: 'Frontend development',
   //   linkTo: '/micro-frontends', // TODO this should be "frontend-development", but that would break existing links. Is that a problem?
@@ -74,7 +74,7 @@ function Feature({Svg, title, description, linkTo}) {
   return (
     <Link className={clsx('col col--4')} to={linkTo}>
       <div className={styles.feature}>
-          
+
         <div className="text--center padding-horiz--md">
           <Heading as="h3">{title}</Heading>
           <p>{description}</p>
