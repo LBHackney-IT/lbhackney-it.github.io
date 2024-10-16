@@ -61,7 +61,7 @@ const config = {
 
   plugins: [
     [
-      require.resolve("@cmfcmf/docusaurus-search-local"), 
+      require.resolve("@cmfcmf/docusaurus-search-local"),
       {
         indexBlog: false,
       }
@@ -86,12 +86,12 @@ const config = {
             position: 'left',
             label: 'Ways of working',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'architecturePillars',
-          //   position: 'left',
-          //   label: 'Architecture',
-          // },
+          {
+            type: 'docSidebar',
+            sidebarId: 'architecturePillars',
+            position: 'left',
+            label: 'Architecture',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/LBHackney-IT/lbhackney-it.github.io',
