@@ -1,9 +1,6 @@
----
-id: data_meetup_template
-title: Data Meetup Template
----
+# Data Meetup Template
 
-### Title 
+### Title
 
 **Author:**
 **Purpose:** Propose a new data structure | Propose a new API | Propose a change to an existing API | Suggest a data practice

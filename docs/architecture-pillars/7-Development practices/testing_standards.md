@@ -1,7 +1,4 @@
----
-id: testing_standards
-title: HackIT Testing Standards
----
+# HackIT Testing Standards
 
 ### Context
 
@@ -32,7 +29,7 @@ As a **developer**, I want
 - To know that my changes are not introducing and data contract issues between Backend and frontend
 - To know the level of testing I am expected to perform so that I have confidence that any changes I introduce are compliant with Hackney’s development and testing standards
 
-As a **tester** 
+As a **tester**
 - I want to be confident that the application is working as expected
 
 As a **security analyst**, I need to
@@ -63,7 +60,7 @@ As a tester, I do not always have time to perform a thorough level of testing on
 
 3. Early testing saves time and money
 
-As a tester, I should ensure that I am 'shifting left' for my testing activities where contextually appropriate. 
+As a tester, I should ensure that I am 'shifting left' for my testing activities where contextually appropriate.
 
 As a tester, I need to ensure all code has been tested pre-deployment so that defects can be identified early and before entering a Production environment to reduce impact on users and save time and effort in rectifying the problem.
 
@@ -78,7 +75,7 @@ As a tester I need to ensure that new functionality is reflected in existing tes
 6. Testing is context dependent
 As a tester, I do not need to perform every type of testing activity on a particular artefact under test.
 
-As a tester, I need to test relevant commits that trigger significant events like deployments, and not all code commits so that time is not spent on testing work in progress. 
+As a tester, I need to test relevant commits that trigger significant events like deployments, and not all code commits so that time is not spent on testing work in progress.
 
 7. Absence-of-errors is a fallacy
 

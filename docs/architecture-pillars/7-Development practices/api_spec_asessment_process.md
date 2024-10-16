@@ -1,7 +1,4 @@
----
-id: api_spec_asessment_process
-title: API Specifications Assessment Process
----
+# API Specifications Assessment Process
 
 ## Purpose
 The purpose of this process is to provide a clear,open and  consistent method of providing new and amended API specifications, evaluating them and getting them published in a way that is easy for a wider audience to access.
@@ -29,8 +26,8 @@ We believe in the value of collaboration and having colleagues contribute to the
 ## The Assessment Process
 Below is a diagram that provides some illustration of the process for assessing/evaluating our API specifications.  Each step in the process is expanded upon a bit further:
 
-Click image to open in a new tab. 
-[![](./docs-images/api_spec_assessment_process.png)](./docs-images/api_spec_assessment_process.png)
+Click image to open in a new tab.
+[![](../docs-images/api_spec_assessment_process.png)](../docs-images/api_spec_assessment_process.png)
 
 ** Draft Specification ** - The individual or project will draft the API specification as part of their internal design process, ensuring that the specification meets the needs of the identified users and follows our development standards as outlined in the API Playbook.  Once the draft is completed it should be exported to an MD (markdown) file and added to the API specifications repository [repository url to be added].
 
