@@ -78,11 +78,12 @@ https://ideaflip.com/edit/uhe2bvdkm8fj/3TqQ2hqBlWef
 404
 If item was not found
 
-                {
-                  “devErrorMessages”: [“debug info or stack trace”],
-                  “userErrorMessage”: “The item you search for was not found”
-                }
-
+```json
+{
+  “devErrorMessages”: [“debug info or stack trace”],
+  “userErrorMessage”: “The item you search for was not found”
+}
+```
 
 ** Post Note **
 Purpose: Creates one or more notes.
@@ -110,7 +111,7 @@ Internal Server Error
 ** Put Note **
 ** Purpose: ** Update a particular note
 
-Endpoint URL: notes/{id}
+Endpoint URL: notes/[id]
 
 Method: Put
 Request put object:
@@ -133,7 +134,7 @@ Internal Server Error
 ** Delete Note **
 ** Purpose: ** Delete a particular note
 
-Endpoint URL: notes/{id}
+Endpoint URL: notes/[id]
 
 Method: Delete
 

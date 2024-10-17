@@ -99,7 +99,7 @@ Endpoint URL:
 - get/tenures/?firstname
 - get/tenures/?lastname
 - get/tenures/?postcode
-- get/tenures/{tenureid}
+- get/tenures/[tenureid]
 
 ** Request Query String parameters: **
 
@@ -126,144 +126,150 @@ If item was not found
 **POST Tenures:**
 
 Purpose: Create one or more tenures
-- Endpoint URL: tenures/{tenureid}
+- Endpoint URL: tenures/[tenureid]
 ** Purpose: ** Note that JigsawRef will be stored within the LegacyReferences parameter
 
 **Request object:**
 
+```json
+{
+  "paymentReference": "string",
+  "householdMembers": [
     {
-      "paymentReference": "string",
-      "householdMembers": [
-        {
-          "id": "TWVoZGlLaW1ha2hlCg==",
-          "type": "person",
-          "fullName": "string",
-          "isResponsible": true,
-          "dateOfBirth": "string",
-          "personTenureType": "Tenant"
-        }
-      ],
-      "tenuredAsset": {
-        "id": "string",
-        "type": "Block",
-        "fullAddress": "string",
-        "uprn": "string"
-      },
-      "charges": {
-        "rent": 0,
-        "currentBalance": 0,
-        "billingFrequency": "string",
-        "serviceCharge": 0,
-        "otherCharges": 0,
-        "combinedServiceCharges": 0,
-        "combinedRentCharges": 0,
-        "tenancyInsuranceCharge": 0,
-        "originalRentCharge": 0,
-        "originalServiceCharge": 0
-      },
-      "startOfTenureDate": "string",
-      "endOfTenureDate": "string",
-      "tenureType": {
-        "code": "INT",
-        "description": "Introductory"
-      },
-      "tenureSource": "string",
-      "isTenanted": true,
-      "terminated": {
-        "isTerminated": false,
-        "reasonForTermination": "string"
-      },
-      "successionDate": "string",
-      "evictionDate": "string",
-      "potentialEndDate": "string",
-      "notices": [
-        {
-          "type": "Notice to quit",
-          "servedDate": "2021-03-29",
-          "expiryDate": "string",
-          "endDate": "string",
-          "effectiveDate": "string"
-        }
-      ],
-      "legacyReferences": [
-        {
-          "name": "u_saff_tenancy",
-          "value": "123456"
-        }
-      ],
-      "isMutualExchange": false,
-      "informHousingBenefitsForChanges": false,
-      "isSublet": false,
-      "subletEndDate": "string",
-      "fundingSource": "string",
-      "numberOfAdultsInProperty": 0,
-      "numberOfChildrenInProperty": 0,
-      "hasOffsiteStorage": false,
-      "furtherAccountInformation":{
-        "rentAccountRequired": false,
-        "noRentAccountReason": "string",
-        "rentLetterDate": "string",
-        "rentCardDate": "string"
-        }
+      "id": "TWVoZGlLaW1ha2hlCg==",
+      "type": "person",
+      "fullName": "string",
+      "isResponsible": true,
+      "dateOfBirth": "string",
+      "personTenureType": "Tenant"
     }
+  ],
+  "tenuredAsset": {
+    "id": "string",
+    "type": "Block",
+    "fullAddress": "string",
+    "uprn": "string"
+  },
+  "charges": {
+    "rent": 0,
+    "currentBalance": 0,
+    "billingFrequency": "string",
+    "serviceCharge": 0,
+    "otherCharges": 0,
+    "combinedServiceCharges": 0,
+    "combinedRentCharges": 0,
+    "tenancyInsuranceCharge": 0,
+    "originalRentCharge": 0,
+    "originalServiceCharge": 0
+  },
+  "startOfTenureDate": "string",
+  "endOfTenureDate": "string",
+  "tenureType": {
+    "code": "INT",
+    "description": "Introductory"
+  },
+  "tenureSource": "string",
+  "isTenanted": true,
+  "terminated": {
+    "isTerminated": false,
+    "reasonForTermination": "string"
+  },
+  "successionDate": "string",
+  "evictionDate": "string",
+  "potentialEndDate": "string",
+  "notices": [
+    {
+      "type": "Notice to quit",
+      "servedDate": "2021-03-29",
+      "expiryDate": "string",
+      "endDate": "string",
+      "effectiveDate": "string"
+    }
+  ],
+  "legacyReferences": [
+    {
+      "name": "u_saff_tenancy",
+      "value": "123456"
+    }
+  ],
+  "isMutualExchange": false,
+  "informHousingBenefitsForChanges": false,
+  "isSublet": false,
+  "subletEndDate": "string",
+  "fundingSource": "string",
+  "numberOfAdultsInProperty": 0,
+  "numberOfChildrenInProperty": 0,
+  "hasOffsiteStorage": false,
+  "furtherAccountInformation":{
+    "rentAccountRequired": false,
+    "noRentAccountReason": "string",
+    "rentLetterDate": "string",
+    "rentCardDate": "string"
+    }
+}
+```
 **PATCH Tenures:**
 
 Purpose: Update one of more tenures
-Endpoints URL: tenures/{tenureid}
+Endpoints URL: tenures/[tenureid]
 
 **Request object:**
 
+```json
+{
+  "startOfTenureDate": "string",
+  "endOfTenureDate": "string",
+  "paymentReference": "string",
+  "tenureType": {
+    "code": "INT",
+    "description": "Introductory"
+  },
+  "tenureSource": "string",
+  "terminated": {
+    "isTerminated": false,
+    "reasonForTermination": "string"
+  },
+  "legacyReferences": [
     {
-    	"startOfTenureDate": "string",
-    	"endOfTenureDate": "string",
-      "paymentReference": "string",
-    	"tenureType": {
-    		"code": "INT",
-    		"description": "Introductory"
-    	},
-      "tenureSource": "string",
-    	"terminated": {
-    		"isTerminated": false,
-    		"reasonForTermination": "string"
-    	},
-      "legacyReferences": [
-        {
-          "name": "u_saff_tenancy",
-          "value": "123456"
-        }
-      ],
-      "fundingSource": "string",
-      "numberOfAdultsInProperty": 0,
-      "numberOfChildrenInProperty": 0,
-      "hasOffsiteStorage": false,
-      "furtherAccountInformation":{
-        "rentAccountRequired": false,
-        "noRentAccountReason": "string",
-        "rentLetterDate": "string",
-        "rentCardDate": "string"
-        }
+      "name": "u_saff_tenancy",
+      "value": "123456"
     }
+  ],
+  "fundingSource": "string",
+  "numberOfAdultsInProperty": 0,
+  "numberOfChildrenInProperty": 0,
+  "hasOffsiteStorage": false,
+  "furtherAccountInformation":{
+    "rentAccountRequired": false,
+    "noRentAccountReason": "string",
+    "rentLetterDate": "string",
+    "rentCardDate": "string"
+    }
+}
+```
 
 **Request Headers**
 - ifMatch
 
 Purpose: Add a person to a tenure
 
-- Endpoint URL: tenures/{tenureid}/person/{personid}
+- Endpoint URL: tenures/[tenureid]/person/[personid]
 
 **Request object:**
 
-    {
-        "type": "Person",
-        "fullName": "Person Full Name",
-        "isResponsible": true,
-        "dateOfBirth": "1951-02-11T00:00:00",
-    }
+```json
+{
+    "type": "Person",
+    "fullName": "Person Full Name",
+    "isResponsible": true,
+    "dateOfBirth": "1951-02-11T00:00:00",
+}
+```
 
 **DELETE Tenures:**
 
 Purpose: Remove a person from tenure
-- Endpoint URL: tenures/{tenureid}/person/{personid}
+- Endpoint URL: tenures/[tenureid]/person/[personid]
 
 
 ** Response: **

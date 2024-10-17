@@ -97,9 +97,9 @@ https://ideaflip.com/b/tk5mzrgytdri/
         iii.    Address?
         iv.     Date of Birth
         v.      NI?
-2. GET **/persons/{person-id}**
-3. PATCH **/persons/{person-id}**
-4. POST **/persons/{person-id}**
+2. GET **/persons/[person-id]**
+3. PATCH **/persons/[person-id]**
+4. POST **/persons/[person-id]**
 
 
 Proposed Data Model by Amido:

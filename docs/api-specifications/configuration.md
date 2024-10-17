@@ -44,42 +44,44 @@ Used to retrieve a list of configurations
 
 ## Example Payload:
 
-                        [
-                          {
-                            "Type": "Person",
-                            "Configuration": {
-                              "ApiUrl": "http://www.hackney.gov.uk/person"
-                            },
-                            "FeatureToggles": {
-                              "CreatePerson": true,
-                              "EditPerson": false
-                            }
-                          },
-                          {
-                            "Type": "ContactDetails",
-                            "Configuration": {
-                              "ApiUrl": "http://www.hackney.gov.uk/contactdetails"
-                            },
-                            "FeatureToggles": {
-                              "AddContactDetails": true
-                            }
-                          },
-                          {
-                            "Type": "Tenure",
-                            "Configuration": {
-                              "ApiUrl": "http://www.hackney.gov.uk/tenure"
-                            },
-                            "FeatureToggles": {
-                              "CreateTenure": true
-                            }
-                          },
-                          {
-                            "Domain": "Asset",
-                            "Configuration": {
-                              "ApiUrl": "http://www.hackney.gov.uk/asset"
-                            },
-                            "FeatureToggles": {
-                              "ViewAsset": false
-                            }
-                          }
-                        ]
+```json
+[
+  {
+    "Type": "Person",
+    "Configuration": {
+      "ApiUrl": "http://www.hackney.gov.uk/person"
+    },
+    "FeatureToggles": {
+      "CreatePerson": true,
+      "EditPerson": false
+    }
+  },
+  {
+    "Type": "ContactDetails",
+    "Configuration": {
+      "ApiUrl": "http://www.hackney.gov.uk/contactdetails"
+    },
+    "FeatureToggles": {
+      "AddContactDetails": true
+    }
+  },
+  {
+    "Type": "Tenure",
+    "Configuration": {
+      "ApiUrl": "http://www.hackney.gov.uk/tenure"
+    },
+    "FeatureToggles": {
+      "CreateTenure": true
+    }
+  },
+  {
+    "Domain": "Asset",
+    "Configuration": {
+      "ApiUrl": "http://www.hackney.gov.uk/asset"
+    },
+    "FeatureToggles": {
+      "ViewAsset": false
+    }
+  }
+]
+```

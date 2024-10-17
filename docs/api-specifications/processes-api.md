@@ -37,7 +37,7 @@ As a developer, I would like to:
 
 ```json
 
-GET /api/v1/process/process-name/{id}/
+GET /api/v1/process/process-name/[id]/
 
 {
   "process": {
@@ -127,7 +127,7 @@ GET /api/v1/process/process-name/{id}/
 ###### POST Endpoint:
 
 ```json
-POST /api/v1/process/{process-name}
+POST /api/v1/process/[process-name]
 {
   "targetId": "6f22e9ae-3e8a-4e0e-af46-db02eb87f8e6",
   "targetType": "tenure",
@@ -157,7 +157,7 @@ POST /api/v1/process/{process-name}
 ** Swagger Hub Hackney: ** https://app.swaggerhub.com/apis/Hackney/ProcessesApi/2.0.0
 
 ```json
-POST /api/v2/process/{process-name}
+POST /api/v2/process/[process-name]
 {
   "targetId": "6f22e9ae-3e8a-4e0e-af46-db02eb87f8e6",
   "targetType": "tenure",
@@ -193,7 +193,7 @@ POST /api/v2/process/{process-name}
 ###### PATCH Endpoint:
 
 ```json
-PATCH /api/v1/process/{process-name}/{id}/{process-trigger}
+PATCH /api/v1/process/[process-name]/[id]/[process-trigger]
 
 {
   "formData": {
@@ -215,7 +215,7 @@ PATCH /api/v1/process/{process-name}/{id}/{process-trigger}
 ###### PATCH by id Endpoint:
 
 ```json
-PATCH /api/v1/process/{process-name}/{id}/
+PATCH /api/v1/process/[process-name]/[id]/
 
 {
   "formData": {

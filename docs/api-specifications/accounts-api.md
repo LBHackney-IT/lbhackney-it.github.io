@@ -29,7 +29,7 @@ A decoupled architecture that allows this entity to be reused across multiple se
 Accounts workshop - https://ideaflip.com/b/75dgi3rx6h2t/
 
 ## Endpoints to be created
-1. GET **//accounts?targetId={targetId}&type={accountType}**
+1. GET **//accounts?targetId=[targetId]&type=[accountType]**
 
     **Function:** Gets a collection of accounts for a person or organisation
 
@@ -75,7 +75,7 @@ Accounts workshop - https://ideaflip.com/b/75dgi3rx6h2t/
     ]
     ```
 
-2. GET **/accounts/arrears?type={accountType}&sort={propertyName}&direction={asc/desc}&resultsCount=[number of items]**
+2. GET **/accounts/arrears?type=[accountType]&sort=[propertyName]&direction=[asc/desc]&resultsCount=[number of items]**
 
     **Function:** Gets a collection of accounts that are in arrears
 
@@ -121,7 +121,7 @@ Accounts workshop - https://ideaflip.com/b/75dgi3rx6h2t/
     ]
     ```
 
-3. GET **/accounts/{id}**
+3. GET **/accounts/[id]**
 
     **Function:** Gets a single account record from the supplied id
 
@@ -196,7 +196,7 @@ Accounts workshop - https://ideaflip.com/b/75dgi3rx6h2t/
     }
     ```
 
-5. PATCH **/accounts/{id}**
+5. PATCH **/accounts/[id]**
 
     **Function:** Updates a person’s account details
 

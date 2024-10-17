@@ -70,7 +70,7 @@ endpoints are relevant
 
 Endpoint URL:
                     organisations/
-                    organisations/{id}
+                    organisations/[id]
                     organisations/?organisationName=”Smith and co”
 
 Request Querystring Parameters:
@@ -112,7 +112,7 @@ Internal Server Error
 ** Purpose: ** Update organisation account details
 
 Endpoint URL:
-- organisations/{id}
+- organisations/[id]
 - Method: Put
 - Request put object:
 - Organisation object: Json object of the organisation details e.g.

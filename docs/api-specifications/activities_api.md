@@ -131,35 +131,37 @@ Internal Server Error
 
 ## Example Payload
 
-          {
-          "id": "6f22e9ae3e8a4e0eaf46db02eb87f8e6",
-          "type": "create|update",
-          "target type": "person|asset|tenure....",
-          "target id": "TWVoZGlLaW1ha2hlCg==",
-          "datetime": "2021-02-19 15:12:00",
-          "time to live for the record": “365 days”,
+```json
+{
+  "id": "6f22e9ae3e8a4e0eaf46db02eb87f8e6",
+  "type": "create|update",
+  "target type": "person|asset|tenure....",
+  "target id": "TWVoZGlLaW1ha2hlCg==",
+  "datetime": "2021-02-19 15:12:00",
+  "time to live for the record": “365 days”,
 
-          //if we want to store data
-          "old data": {
-          "id": "TWVoZGlLaW1ha2hlCg==",
-          "title": "Mr",
-          "forename": "M",
-          "middle name": "",
-          "surname": "K",
-          ...
-          },
-          "new data": {
-          "id": "TWVoZGlLaW1ha2hlCg==",
-          "title": "Mr",
-          "forename": "Mehdi",
-          "middle name": "",
-          "surname": "Kimakhe",
-          ...
-          },
+  //if we want to store data
+  "old data": {
+    "id": "TWVoZGlLaW1ha2hlCg==",
+    "title": "Mr",
+    "forename": "M",
+    "middle name": "",
+    "surname": "K",
+    ...
+  },
+  "new data": {
+    "id": "TWVoZGlLaW1ha2hlCg==",
+    "title": "Mr",
+    "forename": "Mehdi",
+    "middle name": "",
+    "surname": "Kimakhe",
+    ...
+  },
 
-          	"Author": {
-          "id": "TWVoZGlLaW1ha2hlCg==",
-          "full name": "Mehdi Kimakhe",
-          "email": "mehdi.kimakhe@hackney.gov.uk"
-          }
-          }
+  "Author": {
+    "id": "TWVoZGlLaW1ha2hlCg==",
+    "full name": "Mehdi Kimakhe",
+    "email": "mehdi.kimakhe@hackney.gov.uk"
+  }
+}
+```

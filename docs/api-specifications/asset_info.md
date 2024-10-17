@@ -142,8 +142,8 @@ Below is the proposal link to all the new fields.
 Endpoint URLs:
 
        /assets
-       /assets/{prop-ref}
-       /assets?llpg-ref={llpg-ref}
+       /assets/[prop-ref]
+       /assets?llpg-ref=[llpg-ref]
        /assets/?postcode=E8 1DY
 
        Method: GET (list, search, view)
@@ -370,7 +370,7 @@ Internal Server Error
 3. ** Put Properties **
 ** Purpose: ** Update a particular asset
 
-Endpoint URL: asset/{id}
+Endpoint URL: asset/[id]
 
 Method: Put
 Request put object:
@@ -385,17 +385,19 @@ Asset Updated
 404
 Not found
 
-       {
-       "DevErrorMessages  ": ["validation errors"],
-       "UserErrorMessage": "Your item could not be updated for the following
-              reasons..."
-       }
+```json
+{
+  "DevErrorMessages  ": ["validation errors"],
+  "UserErrorMessage": "Your item could not be updated for the following
+        reasons..."
+}
+``
 500
 
        Internal Server Error
 
 
-4. PATCH properties `/assets/{id}`
+4. PATCH properties `/assets/[id]`
 
        ** Purpose: ** Updates an existing asset in dynamoDB database.
        We are using patch to allow for in place editing (single field updates).

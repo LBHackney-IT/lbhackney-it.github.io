@@ -133,7 +133,7 @@ I can take necessary action
         }
     ]
     ```
-3. GET **/message-status/{service}/{notificationId}**
+3. GET **/message-status/[service]/[notificationId]**
     **Function:** Gets the status of a message sent within the retention period (7 days)
     **Response Payload**
     ```
@@ -165,7 +165,7 @@ I can take necessary action
     }
     ```
 
-5. PATCH **/notifications/{id}**
+5. PATCH **/notifications/[id]**
     **Function:** Updates the action details of a notification
     **Request Payload:**
     ```
@@ -175,7 +175,7 @@ I can take necessary action
         “actionNote”:””
     }
     ```
-6. DELETE **/notifications/{id}**
+6. DELETE **/notifications/[id]**
     **Function:** Deletes the specified notification
 
 ## Other considerations
