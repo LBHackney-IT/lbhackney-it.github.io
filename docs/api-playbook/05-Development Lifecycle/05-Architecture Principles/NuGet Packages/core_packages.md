@@ -1,7 +1,4 @@
----
-id: core_packages
-title: Hackney Core NuGet Package
----
+# Hackney Core NuGet Package
 
 
 ### What is a Core NuGet Package?

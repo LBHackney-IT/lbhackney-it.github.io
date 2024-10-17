@@ -1,7 +1,4 @@
----
-id: swagger_documentation
-title: Swagger Documentation
----
+# Swagger Documentation
 
 ## Introduction:
 

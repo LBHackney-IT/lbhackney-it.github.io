@@ -1,7 +1,4 @@
----
-id: aws_ecs
-title: AWS / ECS with Fargate and when to use
----
+# AWS / ECS with Fargate and when to use
 
 ## ECS/Fargate:
 

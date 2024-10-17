@@ -1,7 +1,4 @@
----
-id: FAQs
-title: Frequently Asked Questions
----
+# Frequently Asked Questions
 
 ## How can I find Base URLs for APIs?:
 

@@ -1,7 +1,4 @@
----
-id: index
-title: Introduction
----
+# Introduction
 
 ## Purpose
 

@@ -1,7 +1,4 @@
----
-id: application_logging
-title: Application Logging Guidelines
----
+# Application Logging Guidelines
 
 ## Introduction:
 

@@ -1,7 +1,4 @@
----
-id: shared-packages
-title: Hackney Shared NuGet packages
----
+# Hackney Shared NuGet packages
 
 
 

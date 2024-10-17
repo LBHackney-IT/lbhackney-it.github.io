@@ -1,7 +1,4 @@
----
-id: patch_postgres
-title: PATCH endpoint using Postgres
----
+# PATCH endpoint using Postgres
 
 
 ### PATCH:

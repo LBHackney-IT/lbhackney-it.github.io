@@ -1,7 +1,4 @@
----
-id: delete_postgres
-title: DELETE endpoint using Postgres
----
+# DELETE endpoint using Postgres
 
 
 ### DELETE:

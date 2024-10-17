@@ -1,7 +1,4 @@
----
-id: quickstart
-title: Quickstart
----
+# Quickstart
 
 ## Dependencies
 

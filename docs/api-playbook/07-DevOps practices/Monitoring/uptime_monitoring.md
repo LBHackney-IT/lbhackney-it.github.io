@@ -1,7 +1,4 @@
----
-id: uptime_monitoring
-title: Centralised Uptime Monitoring
----
+# Centralised Uptime Monitoring
 
 Hackney now has multiple Platform APIs deployed to the AWS cloud. Each API is a self-contained application exposing a specific set of data.
 As we are creating and deploying multiple APIs in AWS It’s necessary to be able to monitor the health and performance of these applications. AWS provides a centralised monitoring and logging solution of the applications.

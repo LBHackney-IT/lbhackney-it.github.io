@@ -1,7 +1,4 @@
----
-id: sonarcloud
-title: SonarCloud
----
+# SonarCloud
 
 # What is SonarCloud
 

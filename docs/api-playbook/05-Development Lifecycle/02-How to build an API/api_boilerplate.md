@@ -1,7 +1,4 @@
----
-id: api_boilerplate
-title: API Boilerplate - Base API
----
+# API Boilerplate - Base API
 
 ## Introduction:
 

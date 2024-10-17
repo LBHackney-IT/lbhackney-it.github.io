@@ -1,7 +1,4 @@
----
-id: x_ray
-title: Request Tracing with AWS XRay
----
+# Request Tracing with AWS XRay
 
 ## Introduction:
 

@@ -1,7 +1,4 @@
----
-id: post_postgres
-title: POST endpoint using Postgres
----
+# POST endpoint using Postgres
 
 ### POST:
 

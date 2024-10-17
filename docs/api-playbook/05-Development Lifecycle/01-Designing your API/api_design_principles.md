@@ -1,7 +1,4 @@
----
-id: api_design_principles
-title: API Design Principles
----
+# API Design Principles
 
 ## Introduction:
 

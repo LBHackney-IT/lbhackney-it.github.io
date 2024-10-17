@@ -1,7 +1,4 @@
----
-id: linting
-title: Linting
----
+# Linting
 
 ## Rules we enforce:
 

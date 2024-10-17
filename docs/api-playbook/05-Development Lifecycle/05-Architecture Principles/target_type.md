@@ -1,7 +1,4 @@
----
-id: target_type
-title: Target Type and Target ID
----
+# Target Type and Target ID
 
 ## Linking data via Target ID and Target Type:
 

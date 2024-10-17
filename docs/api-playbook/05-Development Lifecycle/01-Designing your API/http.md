@@ -1,7 +1,4 @@
----
-id: http
-title: HTTP
----
+# HTTP
 
 ## MUST Use REST Maturity Level 2:
 

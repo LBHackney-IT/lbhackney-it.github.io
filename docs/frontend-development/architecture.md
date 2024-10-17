@@ -1,7 +1,4 @@
----
-id: architecture
-title: Architecture
----
+# Architecture
 
 We use the `single-spa` framework for managing MFE's within Hackney. Single-SPA offers a wide variety of tools to build MFEs, of which we have mostly followed the recommended approach.
 

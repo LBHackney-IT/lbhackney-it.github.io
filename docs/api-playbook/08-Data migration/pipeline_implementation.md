@@ -1,7 +1,4 @@
----
-id: pipeline_implementation
-title: Data Pipeline Implementation
----
+# Data Pipeline Implementation
 
 ## S3:
 

@@ -1,7 +1,4 @@
----
-id: operation
-title: Operation
----
+# Operation
 
 ## MUST Monitor API Usage:
 

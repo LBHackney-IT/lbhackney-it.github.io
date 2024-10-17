@@ -1,7 +1,4 @@
----
-id: mandatory_standards_api
-title: Mandatory Standards for Api
----
+# Mandatory Standards for Api
 
 **Mandatory Standards for API**
 

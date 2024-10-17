@@ -1,7 +1,4 @@
----
-id: data-formats
-title: Data Formats
----
+# Data Formats
 
 ## MUST Use JSON to Encode Structured Data:
 

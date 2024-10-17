@@ -1,7 +1,4 @@
----
-id: open_search
-title: Open Search
----
+# Open Search
 
 
 ## Basic Principles

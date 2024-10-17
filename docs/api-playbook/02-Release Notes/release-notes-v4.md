@@ -1,7 +1,4 @@
----
-id: release-notes-v4
-title: V4
----
+# V4
 *Product Name: API Playbook*
 *Version: V4*
 *Release Date: September 2022*

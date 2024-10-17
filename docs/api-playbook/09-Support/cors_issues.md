@@ -1,7 +1,4 @@
----
-id: cors_issues
-title: CORs Issues
----
+# CORs Issues
 
 Sometimes there are CORs issues on the Microfrontends or APIs that prevents Hackney sites from loading (blank page shows instead). If this issue occurs then the following will need to take place for both APIs and Microfrontends.
 

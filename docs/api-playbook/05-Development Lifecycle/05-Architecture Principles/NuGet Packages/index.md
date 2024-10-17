@@ -1,7 +1,4 @@
----
-id: nuget_packages
-title: What are NuGet Packages?
----
+# What are NuGet Packages?
 
 
 # What is a NuGet Package

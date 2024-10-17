@@ -1,7 +1,4 @@
----
-id: rds_access
-title: Access to RDS in a private subnet from local machine
----
+# Access to RDS in a private subnet from local machine
 
 ## Securely connecting to an AWS RDS instance:
 

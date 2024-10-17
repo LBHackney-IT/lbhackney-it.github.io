@@ -1,7 +1,4 @@
----
-id: ssm_secrets
-title: Using SSM to retrieve secrets at runtime
----
+# Using SSM to retrieve secrets at runtime
 
 ### Introduction
 

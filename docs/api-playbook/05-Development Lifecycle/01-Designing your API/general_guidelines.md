@@ -1,7 +1,4 @@
----
-id: general_guidelines
-title: General Guidelines
----
+# General Guidelines
 
 ## MUST Follow API First Principle:
 

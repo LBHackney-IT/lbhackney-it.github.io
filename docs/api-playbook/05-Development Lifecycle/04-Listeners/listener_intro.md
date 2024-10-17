@@ -1,7 +1,4 @@
----
-id: listener_intro
-title: What are Backend Listeners?
----
+# What are Backend Listeners?
 
 ## Introduction
 

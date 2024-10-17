@@ -1,7 +1,4 @@
----
-id: entity_framework
-title: Entity Framework Core
----
+# Entity Framework Core
 
 ## Introduction:
 

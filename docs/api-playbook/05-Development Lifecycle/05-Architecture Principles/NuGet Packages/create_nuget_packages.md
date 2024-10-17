@@ -1,14 +1,11 @@
----
-id: create_nuget_packages
-title: How to create NuGet Packages
----
+# How to create NuGet Packages
 
-1. Create a dotnet class library project. To create a “compatible” package, developers should target .NET Standard so that all .NET and .NET core projects can consume the package. 
+1. Create a dotnet class library project. To create a “compatible” package, developers should target .NET Standard so that all .NET and .NET core projects can consume the package.
 ``` dotnet new classlib --name projectName```
 Make sure that the .csproj project file has set the RepositoryURL and Version:
 ```c#
 <Project Sdk="Microsoft.NET.Sdk">
- 
+
  <PropertyGroup>
    <TargetFramework>netstandard2.1</TargetFramework>
    <RepositoryUrl>https://github.com/LBHackney-IT/<REP0-NAME></RepositoryUrl>
@@ -19,7 +16,7 @@ Make sure that the .csproj project file has set the RepositoryURL and Version:
    <NoWarn>S1066;S4457</NoWarn>
    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
  </PropertyGroup>
- 
+
 </Project>
 ```
 
@@ -36,7 +33,7 @@ You need to create a GitHub Personal Access Token to authenticate your request t
 
 1. Go to your GitHub account and click on your avatar on the top right corner
 2. Then go to setting, developer settings
-3. Then click on Personal Access Token 
+3. Then click on Personal Access Token
 4. Click on ‘Generate new token’
 5. Select the read package permission
 6. Then generate the token (make sure you copy the token to a safe area as you won’t be able to view it again once you’ve closed the tab)

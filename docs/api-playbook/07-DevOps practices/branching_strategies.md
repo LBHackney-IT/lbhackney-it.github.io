@@ -1,7 +1,4 @@
----
-id: branching_strategies
-title: Branching Strategies
----
+# Branching Strategies
 
 ** GitHub is used for version control and source code management. **
 

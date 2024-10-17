@@ -1,7 +1,4 @@
----
-id: listener_boilerplate
-title: Listener Boilerplate - Base Listener
----
+# Listener Boilerplate - Base Listener
 
 ## The Template:
 

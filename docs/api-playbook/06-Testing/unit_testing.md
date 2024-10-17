@@ -1,7 +1,4 @@
----
-id: unit_testing
-title: Writing Unit Tests
----
+# Writing Unit Tests
 ## Introduction:
 
 Unit tests are used to test the functionality of an individual function or a
