@@ -41,7 +41,7 @@ This means that if any large file needs to be stored at run time to be accessed 
 
 It is recommended that you use Terraform to provision AWS resources. We already have produced a terraform template that generates all necessary resources for an API/app that is to be hosted using ECS with Fargate.
 
-In this playbook, please refer to the [Terraform section](/infrastructure) to find out more about the templates and how to use them. The template has configuration both for front end apps and for back end services that are to use ECS with Fargate.
+In this playbook, please refer to the [Terraform section](../infrastructure) to find out more about the templates and how to use them. The template has configuration both for front end apps and for back end services that are to use ECS with Fargate.
 
 ** The Terraform template creates the following resources: **
 

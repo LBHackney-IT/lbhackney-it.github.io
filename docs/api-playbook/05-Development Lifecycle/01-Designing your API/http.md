@@ -218,7 +218,7 @@ Below we list the most commonly used and best understood HTTP status codes, cons
 | 405  | Method Not Allowed - the method is not supported                                                                                                 | All                      |
 | 406  | Not Acceptable - resource can only generate content not acceptable according to the Accept headers sent in the request                                        | All                      |
 | 415  | Unsupported Media Type - e.g. clients sends request body without content type                                                                                 | POST, PUT, DELETE, PATCH |
-| 429  | Too many requests - the client does not consider rate limiting and sent too many requests. See [MUST Use Code 429 with Headers for Rate Limits](#153).      | All                      |
+| 429  | Too many requests - the client does not consider rate limiting and sent too many requests.      | All                      |
 
 ### Server Side Error Codes:
 

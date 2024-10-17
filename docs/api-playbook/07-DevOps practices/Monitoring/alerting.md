@@ -44,7 +44,7 @@ We use AWS CloudWatch Canaries to monitor the availability of our APIs and front
 
 - The current creation process for a canary is **manual**;
 
-[See the guidance for Canaries here](/uptime_monitoring)
+[See the guidance for Canaries here](../uptime_monitoring)
 
 ### AWS Canaries for front end applications:
 

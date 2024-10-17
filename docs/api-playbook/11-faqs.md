@@ -10,7 +10,7 @@ You can do this by looking up the API in AWS API Gateway.
 5. Choose the stage you want to use;
 6. Now you can see the entire URL inside a blue box on the top with the heading "Invoke URL";
 
-Additionally, you can find API URLs on our Developer Hub website. See more information about it [here](/developer_hub).
+Additionally, you can find API URLs on our Developer Hub website. See more information about it [here](../Governance/developer_hub).
 
 ## How do I find out whether an API is healthy?:
 
@@ -20,15 +20,13 @@ You can utilise AWS Canaries, which we use for uptime monitoring.
 3. Click on “Synthetics Canaries” in the sidebar (under “Application Monitoring”);
 4. This will list all of the canaries and their statuses;
 
-To see more information about canaries and how to set them up, visit the relevant page [here](/uptime_monitoring).
+To see more information about canaries and how to set them up, visit the relevant page [here](../DevOps practices/Monitoring/uptime_monitoring).
 
 ## Where do I find my token to use to authenticate access to APIs?:
 
 1. Visit the [Hackney Authentication Service](https://auth.hackney.gov.uk/auth?redirect_uri=https://auth.hackney.gov.uk/auth/check_token) website to check your Hackney JWT token. You may need to log in during this;
 2. Inspect your cookies to find the `hackneyToken` cookie. This will depend on your browser. See [here](https://cookie-script.com/documentation/how-to-check-cookies-on-chrome-and-firefox) for instructions on how to find cookies on Google Chrome or Firefox;
 3. Add this token value to the `Authorization` header in all API requests. This will allow you to authenticate access to Hackney APIs;
-
-_Please note that while you may be authenticated, you may not be authorised to use every API. To be allowed access to an API, you need to be added to a google group for that API. Please visit [this page](/lambda_authoriser) to see more information about our custom Lambda Authoriser._
 
 ## How do I find the authentication process used for an API?:
 
@@ -60,4 +58,4 @@ If you aren't subscribed to any projects, simply navigate to the'projects' tab o
 
 ## Where can I find different APIs that we use at Hackney?:
 
-You can use our Developer Hub to view our APIs! See [this page](/developer_hub) for more information.
+You can use our Developer Hub to view our APIs! See [this page](../Governance/developer_hub/) for more information.
