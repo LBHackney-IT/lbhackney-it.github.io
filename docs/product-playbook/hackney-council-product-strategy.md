@@ -154,7 +154,6 @@ Multidisciplinary product teams are different sizes and reflect the skills neede
 - Technical Architect
 - Data Analyst
 - Business Analyst
-- Content Designer
 
 In summary, our product strategy gives us a vision, goals and deliverables to provide value for money to our residents, through our four key areas: product leadership, product management, establishing our product function and creating skilled and engaged teams.
 
