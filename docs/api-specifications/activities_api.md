@@ -1,7 +1,4 @@
----
-id: activities_api
-title: Activity History API
----
+# Activity History API
 
 ## Purpose:
 To identify all information to be captured with regards to the Activities(Record logging) domain.

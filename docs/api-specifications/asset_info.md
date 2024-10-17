@@ -1,7 +1,4 @@
----
-id: asset_info
-title: Asset Information API
----
+# Asset Information API
 
 ## Purpose
 To identify all information to be captured with regards to the Core-Asset domain.
@@ -31,7 +28,7 @@ We have agreed on a flexible approach to following HACT standards for Asset info
 - I can find if any facilities are linked to the property.
 - I can direct the required repairs information to the team.
 
-** As a Repairs service user I would like to see what type of property it is so that: **  
+** As a Repairs service user I would like to see what type of property it is so that: **
 - I can decide what action they can take. For example: if it is a house and the roof is leaking then it will be a house repair similarly if it is a block then it will be a block repair.
 - I can find out if the property comes under new build and direct the required team to take action.
 
@@ -53,7 +50,7 @@ We have agreed on a flexible approach to following HACT standards for Asset info
 - I can find out the rent group of the property (HRA information).
 
 
-** As a Repairs/Tenancy and Leaseholder service user I need to know the LLPG reference so that: **  
+** As a Repairs/Tenancy and Leaseholder service user I need to know the LLPG reference so that: **
 - I can identify the location of the property.
 - I can see the status of the property (whether the property belongs to a block/estate etc)
 
@@ -95,7 +92,7 @@ endpoints are relevant
 ** As an application support analyst**
  I need to understand the queries being used by the API so that I can deal with support requests accordingly and resolve the potential issues in the underlying data.
 
-** As a data analyst I need to connect to the API via Qlik so that: **  
+** As a data analyst I need to connect to the API via Qlik so that: **
 data is easy to interpret and available for further reporting purposes.
 
 ** As a data analyst I need to know the LLPG reference so that: **
@@ -390,7 +387,7 @@ Not found
 
        {
        "DevErrorMessages  ": ["validation errors"],
-       "UserErrorMessage": "Your item could not be updated for the following  
+       "UserErrorMessage": "Your item could not be updated for the following
               reasons..."
        }
 500
@@ -466,7 +463,7 @@ Not found
        "rootAsset": "6f22e9ae-3e8a-4e0e-af46-db02eb87f8e6",
     }
 ```
- 
+
  **Response:**
 
  Code 200 OK returning the [full payload](#example-full-payload).

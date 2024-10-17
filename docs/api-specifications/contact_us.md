@@ -1,8 +1,4 @@
----
-id: contact_us
-title: Contact Our Development Team
-
----
+# Contact Our Development Team
 
 ## For any enquiries please speak to:
 

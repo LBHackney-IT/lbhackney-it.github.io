@@ -1,8 +1,4 @@
----
-id: notes
-title: Notes API
-
----
+# Notes API
 ## Purpose
 
 To identify all information to be captured with regards to the Notes domain.
@@ -77,7 +73,7 @@ https://ideaflip.com/edit/uhe2bvdkm8fj/3TqQ2hqBlWef
 ** Get Notes **
 ** Purpose: ** Gets one or more properties from the properties table.  Requests can be made by specifying a ref path parameter or searching for properties based on a series of parameters.
 
-![API](./doc-images/spec18.png)      
+![API](./doc-images/spec18.png)
 
 404
 If item was not found
@@ -186,7 +182,7 @@ Internal Server Error
     "full name": "Mehdi Kimakhe",
     "email": "mehdi.kimakhe@hackney.gov.uk"
   },
-    
+
   “tags” : [
     "person",
     "update",

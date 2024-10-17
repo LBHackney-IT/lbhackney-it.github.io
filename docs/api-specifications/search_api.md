@@ -1,7 +1,4 @@
----
-id: search_api
-title: Search API
----
+# Search API
 ## Purpose
 
 As part of our solution, we are proposing to develop the first version of this service as a pilot. This will help to target services more effectively, achieve better outcomes and enhance performance monitoring while reducing cost and risk.
@@ -32,7 +29,7 @@ We are considering using ElasticSearch as our search engine. Our elastic search 
 - I can find if any facilities are linked to the property.
 - I can direct the required repairs information to the team.
 
-** As a Repairs service user I would like to see what type of property it is so that: **  
+** As a Repairs service user I would like to see what type of property it is so that: **
 
 - I can decide what action they can take. For ex: if it is a house and roof is taking then it will be a house repair similarly if it is a block then it will be a block repair.
 - I can find out if the property comes under new build and direct the required team to take action.
@@ -222,7 +219,7 @@ GET /search/transactions?[searchText]OR[targetId] - to get paginated transaction
 
 ** 	Responses: **
 - 200 - Successfully retrieved tenure details upon request
-- 500 - Internal server error 
+- 500 - Internal server error
 
 ## Example payload
 

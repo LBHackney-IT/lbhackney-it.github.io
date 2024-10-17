@@ -1,8 +1,4 @@
----
-id: organisations
-title: Organisations API
-
----
+# Organisations API
 ## Purpose
 
 Currently UH does not have a process to identify the corporate accounts/organisations accounts from a person record. To keep the structure clean and maintainable for future purpose and also beneficial for maintaining the business index records, we have agreed to create an API which will flag if the record is a corporate account.

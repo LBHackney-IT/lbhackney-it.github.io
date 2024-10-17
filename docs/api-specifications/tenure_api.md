@@ -1,7 +1,4 @@
----
-id: tenure_api
-title: Tenure API
----
+# Tenure API
 ## Purpose
 
 The housing tenure describes the legal status under which people/organizations have the right to occupy their accommodation.
@@ -207,7 +204,7 @@ Purpose: Create one or more tenures
         "noRentAccountReason": "string",
         "rentLetterDate": "string",
         "rentCardDate": "string"
-        } 
+        }
     }
 **PATCH Tenures:**
 
@@ -234,7 +231,7 @@ Endpoints URL: tenures/{tenureid}
           "name": "u_saff_tenancy",
           "value": "123456"
         }
-      ],      
+      ],
       "fundingSource": "string",
       "numberOfAdultsInProperty": 0,
       "numberOfChildrenInProperty": 0,
@@ -244,7 +241,7 @@ Endpoints URL: tenures/{tenureid}
         "noRentAccountReason": "string",
         "rentLetterDate": "string",
         "rentCardDate": "string"
-        } 
+        }
     }
 
 **Request Headers**
@@ -294,4 +291,4 @@ Not found
 - Document issue -  which is the process of success/fail prior to application
 - Tenure Application details
 - List of invoices (link to invoice ID)
-- Tenure agreements 
+- Tenure agreements

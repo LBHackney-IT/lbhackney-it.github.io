@@ -1,12 +1,9 @@
----
-id: accounts-api
-title: Accounts API
----
+# Accounts API
 
 ## Purpose
-To identify all information to be captured with regards to the Accounts domain. 
-As part of our solution we are proposing to develop an Account entity and API that will serve accounts related data for our housing streams and any other projects that may require information relating to an account. This means that we can offer a deeper, more citizen-centric self-service capability, enabling even more service transactions to be carried out online. 
-For the purposes of establishing context, the definition of an account as it relates to this entity is a record of a financial basis that links a user to a service. 
+To identify all information to be captured with regards to the Accounts domain.
+As part of our solution we are proposing to develop an Account entity and API that will serve accounts related data for our housing streams and any other projects that may require information relating to an account. This means that we can offer a deeper, more citizen-centric self-service capability, enabling even more service transactions to be carried out online.
+For the purposes of establishing context, the definition of an account as it relates to this entity is a record of a financial basis that links a user to a service.
 
 ## Functions
 - Accounts - Account information relating to a person or organisation.  This could be for a person’s rent account, benefit account or any other account a person (or organisation) may hold with the council.
@@ -63,7 +60,7 @@ Accounts workshop - https://ideaflip.com/b/75dgi3rx6h2t/
                         "type": "service charges",
                         "frequency":"weekly",
                         "amount":100.20”
-                    } 
+                    }
                 ],
             "tenure": {
                 "tenancyId": 31254,
@@ -116,7 +113,7 @@ Accounts workshop - https://ideaflip.com/b/75dgi3rx6h2t/
             “primaryTenants”:[
                 “fullName”:””,
                 “fullName”:””
-            ],            
+            ],
             “fullAddress”,”1 Hillman Street, Hackney, E8 1DY”
             },
             }
@@ -202,7 +199,7 @@ Accounts workshop - https://ideaflip.com/b/75dgi3rx6h2t/
 5. PATCH **/accounts/{id}**
 
     **Function:** Updates a person’s account details
-    
+
     **Request Payload:**
     ```
     {
@@ -240,7 +237,7 @@ Accounts workshop - https://ideaflip.com/b/75dgi3rx6h2t/
 ## Properties/Column Mappings
 The following db columns have been identified as common and useful in the context of an account.
 
-| Name | Type | Table Field Name | Description | 
+| Name | Type | Table Field Name | Description |
 |------|------|------------------|-------------|
 | Id | UUID | id | A unique id in the database |
 | TargetId | String | target_id | A reference to the person holding this account|
@@ -281,7 +278,7 @@ The following db columns have been identified as common and useful in the contex
 
 
 ## Other considerations
-- How do we reflect positive and negative activities on an account?  
+- How do we reflect positive and negative activities on an account?
 - Do we need to supply an account balance at a specific date? - Let’s not do this.
 - Do we want to have a further breakdown within this API of what makes up an account balance?
 
