@@ -1,7 +1,4 @@
----
-id: equality-information-api
-title: Equality Information API
----
+# Equality Information API
 
 ## Purpose
 To identify all information to be captured with regards to the equality information domain related to a person.

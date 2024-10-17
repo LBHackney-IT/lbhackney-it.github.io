@@ -1,7 +1,4 @@
----
-id: processes-api
-title: Processes API
----
+# Processes API
 
 
 ## Context

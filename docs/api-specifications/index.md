@@ -1,8 +1,4 @@
----
-id: index
-title: Introduction
-slug: /
----
+# Introduction
 
 As we continue to build on the number of APIs currently in service we provide a central repository for all of the specificactions that have been agreed.  The Swagger documentation provides a concise view of the various endpoints of our APIs and how to use them.  Our API specifications document our journey to establishing how the APIs were designed and the many decisions that were taken.  This will give us the opportunity to learn from our past choices and continue to build and improve as we go.
 

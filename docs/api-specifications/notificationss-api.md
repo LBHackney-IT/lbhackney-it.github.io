@@ -1,7 +1,4 @@
----
-id: notifications-api
-title: Notifications API
----
+# Notifications API
 
 ## Purpose
 To identify all information to be captured with regards to the Notifications domain.  For the purpose of this specification a notification is defined as a means of notifying a user (tenant, officer, etc) that an event has occurred that is relevant to them.
@@ -29,7 +26,7 @@ Reducing development costs across all streams/domains.
 1. As a service user I would like to receive email notifications so that I am confident that my request has been actioned.
 2. As a service user I would like to receive text message notifications so that I am confident that my request has been actioned.
 3. As a service user I would like to receive written letters so that I can be confident that my request has been actioned.
-I can take necessary action 
+I can take necessary action
 4. As a member of the Finance team, I want to be notified of missed Service Charge payments so I can take necessary action
 5. As a member of the Finance team, I want to be notified of Estimates to be approved via a Notifications screen and be able to confirm I have seen it via a pop-up so there is an audit that I have seen the notification and take necessary action.
 6. As a member of the Finance team, I want to be notified of Actuals to be approved and be able to confirm I have seen it via a pop-up so there is an audit that I have seen the notification and take necessary action.
@@ -45,11 +42,11 @@ I can take necessary action
 16. As a resident, I want to be notified that a satisfaction survey is available at the end of certain activities (e.g. repair, gas servicing, new tenancy created)
 17. As a resident, I want to be notified when a work team cannot access my property, so I know to make it accessible*
 18. As a Finance team/Repairs Team, I want to be notified when a property is involved in a legal disrepair action
-19. As a Finance officer, I want to be notified that there is court action underway, 
+19. As a Finance officer, I want to be notified that there is court action underway,
 20. As a Finance officer, I want to be notified if an account is paid off so that the case can be closed
-21. As an officer , I want to be notified of the death of a tenant so that due process may apply. 
+21. As an officer , I want to be notified of the death of a tenant so that due process may apply.
 22. As a Tenant/Leaseholder I want to be notified/reminded of process activities that require my attention to completed so that i can take the necessary action.
-23. All workstreams: I want to be notified when I am due to make a visit so that I can schedule a visit, 
+23. All workstreams: I want to be notified when I am due to make a visit so that I can schedule a visit,
 24. As a housing officer, I want to be notified when a new cautionary contact record is entered for the property if I’m due to visit that property so that I can take the necessary precautions.
 25. As an officer/Manager, I want to be notified when certain thresholds are passed within processes (e.g. no update to a housing management process in 2 weeks),as well as presenting this in the work tray, so that I can be kept updated without visiting the worktray.
 26. As a housing officer, I want to be notified that a household has a member who is subject to  cautionary contact so I can take the necessary precautions.
@@ -68,7 +65,7 @@ I can take necessary action
     ```
     {
         “targetId”:”7e6041e2-01b6-4c41-9ccd-5b0932616b50”,
-        “targetType”:”FailedDirectDebits,MissedServiceChargePayments,Estimates,Actuals”, 
+        “targetType”:”FailedDirectDebits,MissedServiceChargePayments,Estimates,Actuals”,
         “notificationType”:”Screen,Email, Text, Letter”,
         “user”:”test.user@hackney.gov.uk”,
         “message”: “3 missed service charge payments have exceeded the tolerance period”,
@@ -125,7 +122,7 @@ I can take necessary action
             "performedActionDoneBy": null,
             "performedActionType": null,
             "isRemovable": true,
-            "personalisationParams": 
+            "personalisationParams":
             {
                 "firstName": "First Name",
                 "lastName": "Last Name",
@@ -159,7 +156,7 @@ I can take necessary action
         "status": "delivered",
         "type": "email",
         "createdByName": null,
-        "template": 
+        "template":
         {
             "id": "9500a44b-8a7f-4fff-a3b8-45763f84874e",
             "path": "https://api.notifications.service.gov.uk/v2/template/9500a44b-8a7f-4fff-a3b8-45763f84874e/version/1",
@@ -184,10 +181,10 @@ I can take necessary action
 ## Other considerations
 - General consideration for how we treat personal information included in processes that were not completed/orphaned.
 - Some sort of service governance API to check when systems don’t meet specified guidelines and use the notifications service for example to alert users.
-- We should consider throttling this service to prevent spamming. 
+- We should consider throttling this service to prevent spamming.
 - Include sending emails with attachments
 - Additional considerations on how documents should be managed.
-    - Build PDFs that will then be sent to Notify 
+    - Build PDFs that will then be sent to Notify
     - Arrange for those PDFs to be stored - e.g. in the Document Store
     - Return the Document Store UID to be recorded against the appropriate record (the same as the content emails and SMSs)
 

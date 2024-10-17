@@ -1,11 +1,8 @@
----
-id: contact_details
-title: Contact Details API
----
+# Contact Details API
 
 ## Purpose
 
-The purpose of this document is to propose the implementation of a Contact Details microservice to interact with contact details data we hold for a person/organization. In the initial implementation, the microservice will focus on the Housing domain, but it should be built in a reusable way so it can be extended to other service areas in the future.  
+The purpose of this document is to propose the implementation of a Contact Details microservice to interact with contact details data we hold for a person/organization. In the initial implementation, the microservice will focus on the Housing domain, but it should be built in a reusable way so it can be extended to other service areas in the future.
 
 - Contact details can be related to a person/organization and include one or multiple (both historical and current)
 - email address

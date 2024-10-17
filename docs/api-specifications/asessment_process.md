@@ -1,8 +1,4 @@
----
-id: assessment_process
-title: Assessment Process
-
----
+# Assessment Process
 ## Purpose
 The purpose of this process is to provide a clear,open and  consistent method of providing new and amended API specifications, evaluating them and getting them published in a way that is easy for a wider audience to access.
 

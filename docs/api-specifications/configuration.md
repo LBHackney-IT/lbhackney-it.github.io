@@ -1,8 +1,4 @@
----
-id: configuration
-title: Configuration
-
----
+# Configuration
 
 ## Purpose
 
@@ -32,7 +28,7 @@ There are a few options regarding what the boundary is for defining and retrievi
 
 ## Our users and their needs:
 
-** As a consumer I need to have an API specification (e.g. Swagger doc, README), so that: **  
+** As a consumer I need to have an API specification (e.g. Swagger doc, README), so that: **
 - I can have a clear understanding of the endpoints which are available
 - I know what the requests and responses should look like
 - Endpoints:

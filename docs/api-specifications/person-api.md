@@ -1,7 +1,4 @@
----
-id: person-api
-title: Person API
----
+# Person API
 
 ## Purpose
 To identify all information to be captured with regards to the Core Person domain.

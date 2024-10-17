@@ -1,10 +1,7 @@
----
-id: contracts_api
-title: Contracts API
----
+# Contracts API
 ## Purpose
 
-The temporary housing platform requires an agreement in place which provides a model representing the details to enbable the use of the property by Hackney contractually. 
+The temporary housing platform requires an agreement in place which provides a model representing the details to enbable the use of the property by Hackney contractually.
 
 As part of our solution, we are proposing to develop the Contracts API. This API will be designed to keep the asset and people models clean and provide a link between these objects as well as holding all the contractual information between the parties.
 
@@ -26,7 +23,7 @@ This API was discussed at TDA 25/05/22 off the back of the need to move data off
 
 **Endpoint Status**: PROPOSED
 
-**Purpose:**  
+**Purpose:**
 Gets one or more Contracts from the Contract table.  Requests can be made by specifying a ref path parameter or searching for Tenures based on a series of parameters.
 
 **Endpoint URL's:**
@@ -222,7 +219,7 @@ Gets one or more Contracts from the Contract table.  Requests can be made by spe
 }
 ```
 - /contracts/{contractId}
- 
+
  Get individual contract
 
 **Response:**
