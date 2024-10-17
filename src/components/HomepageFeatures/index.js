@@ -50,15 +50,15 @@ const FeatureList = [
       </>
     ),
   },
-  // {
-  //   title: 'Product Playbook',
-  //   linkTo: '/product-playbook',
-  //   description: (
-  //     <>
-  //       Hackney's product strategy, and how the Product teams work
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'Product Playbook',
+    linkTo: '/product-playbook',
+    description: (
+      <>
+        Hackney's product strategy, and how the Product teams work
+      </>
+    ),
+  },
   // {
   //   title: 'Data Platform',
   //   linkTo: '/data-platform-playbook',

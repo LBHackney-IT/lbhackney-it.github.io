@@ -109,6 +109,12 @@ const config = {
             position: 'left',
             label: 'API Specs',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'productPlaybook',
+            position: 'left',
+            label: 'Product Playbook',
+          },
 
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
