@@ -32,15 +32,15 @@ const FeatureList = [
       </>
     ),
   },
-  // {
-  //   title: 'Frontend development',
-  //   linkTo: '/micro-frontends', // TODO this should be "frontend-development", but that would break existing links. Is that a problem?
-  //   description: (
-  //     <>
-  //       Details Hackney's micro-frontend architecture.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'Frontend development',
+    linkTo: '/frontend-development', // TODO this should be "frontend-development", but that would break existing links. Is that a problem?
+    description: (
+      <>
+        Details Hackney's micro-frontend architecture.
+      </>
+    ),
+  },
   // {
   //   title: 'Hackney Design System',
   //   linkTo: 'https://design-system.hackney.gov.uk/',

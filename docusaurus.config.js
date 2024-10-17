@@ -96,8 +96,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'apiDevelopment',
             position: 'left',
-            label: 'API Development',
+            label: 'API Dev',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'frontendDevelopment',
+            position: 'left',
+            label: 'Frontend Dev',
+          },
+
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/LBHackney-IT/lbhackney-it.github.io',
