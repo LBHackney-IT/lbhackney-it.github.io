@@ -34,7 +34,8 @@ Gets one or more Contracts from the Contract table.  Requests can be made by spe
 
 **Response:**
 - 200 OK
-```
+
+```json
 {
 	"results": [
 		{
@@ -218,7 +219,7 @@ Gets one or more Contracts from the Contract table.  Requests can be made by spe
 	}
 }
 ```
-- /contracts/{contractId}
+- /contracts/[contractId]
 
  Get individual contract
 
@@ -371,7 +372,7 @@ Create a new Contract
 Updates a Contract
 
 **Endpoint URL's:**
-/contracts/{contractId}
+/contracts/[contractId]
 
 **Request object:**
 ```
@@ -420,7 +421,7 @@ Updates a Contract
 Updates a new Contract
 
 **Endpoint URL's:**
-- /contracts/{contractId}
+- /contracts/[contractId]
 
 ### DELETE Contracts:
 
@@ -430,4 +431,4 @@ Updates a new Contract
 Removes a new Contract
 
 **Endpoint URL's:**
-- /contracts/{contractId}
+- /contracts/[contractId]

@@ -57,10 +57,10 @@ In the second workshop, we discussed the necessity of the equalities information
 
 ### Endpoints to be created for the equality information microservice
 
-1. GET **/equality-information/{equality-information-id}**
-2. GET **/equality-information/{target-id}**
-3. PATCH **/equality-information/{equality-information-id}**
-4. POST **/equality-information/{equality-information-id}**
+1. GET **/equality-information/[equality-information-id]**
+2. GET **/equality-information/[target-id]**
+3. PATCH **/equality-information/[equality-information-id]**
+4. POST **/equality-information/[equality-information-id]**
 
 **Example payload**
 ```

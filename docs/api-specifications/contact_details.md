@@ -49,11 +49,11 @@ https://ideaflip.com/b/bk558iy45tyt/
 - Forwarding addresses for future correspondence
 - Email address(es) for informed communication.
 - Endpoints to be created
-- GET /contact-details/{id} //will we ever have a use case to retrieve a single contact details record?
-- GET /contact-details?targetId={id}&includeHistoric=true //id of person/organization to retrieve all contact details, with optional filtering of whether historic details should be included. Default should be false.
+- GET /contact-details/[id] //will we ever have a use case to retrieve a single contact details record?
+- GET /contact-details?targetId=[id]&includeHistoric=true //id of person/organization to retrieve all contact details, with optional filtering of whether historic details should be included. Default should be false.
 - POST /contact-details
 - Inserts a new contact details record
-- PUT /contact-details/{id}
+- PUT /contact-details/[id]
 - Updates a contact details record.
 - In previous use cases, value of record was not updated - e.g. if a new phone number is created, a new record was added and old record was marked as inactive if applicable
 - Fields that should be updatable -

@@ -227,145 +227,152 @@ https://app.swaggerhub.com/apis/Hackney/housingSearchApi/1.0.0#/
 
 ** Payload for search person **
 
-                  {
-                    "results": [
-                      {
-                        "id": "6f22e9ae3e8a4e0eaf46db02eb87f8e6",
-                        "title": "Mrs",
-                        "firstname": "Julie",
-                        "middleName": "",
-                        "surname": "Evans",
-                        "preferredFirstname": "string",
-                        "preferredSurname": "string",
-                        "dateOfBirth": "1990-02-19",
-                        "identifications": [
-                          {
-                            "identificationType": "NI",
-                            "value": "1234A",
-                            "isOriginalDocumentSeen": true,
-                            "linkToDocument": "string"
-                          }
-                        ],
-                        "personTypes": [
-                          "HousingOfficer"
-                        ],
-                        "IsPersonCautionaryAlerted": true,
-                        "IsTenureCautionaryAlerted": true,
-                        "tenures": [
-                          {
-                            "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-                            "type": "secure",
-                            "startDate": "string",
-                            "endDate": "string",
-                            "assetFullAddress": "Apartment 22, 18 G road, SW11"
-                          }
-                        ]
-                      }
-                    ],
-                    "total": 100
-                  }
+```json
+{
+  "results": [
+    {
+      "id": "6f22e9ae3e8a4e0eaf46db02eb87f8e6",
+      "title": "Mrs",
+      "firstname": "Julie",
+      "middleName": "",
+      "surname": "Evans",
+      "preferredFirstname": "string",
+      "preferredSurname": "string",
+      "dateOfBirth": "1990-02-19",
+      "identifications": [
+        {
+          "identificationType": "NI",
+          "value": "1234A",
+          "isOriginalDocumentSeen": true,
+          "linkToDocument": "string"
+        }
+      ],
+      "personTypes": [
+        "HousingOfficer"
+      ],
+      "IsPersonCautionaryAlerted": true,
+      "IsTenureCautionaryAlerted": true,
+      "tenures": [
+        {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "type": "secure",
+          "startDate": "string",
+          "endDate": "string",
+          "assetFullAddress": "Apartment 22, 18 G road, SW11"
+        }
+      ]
+    }
+  ],
+  "total": 100
+}
+```
 
+Payload for search asset:
 
-                  Payload for search asset:
-                  {
-                    "results": [
-                      {
-                        "assetId": "00007918",
-                        "assetType": "estate",
-                        "assetAddress": {
-                          "uprn": "100021065786",
-                          "addressLine1": "Powell Road",
-                          "addressLine2": "Hackney",
-                          "addressLine3": "London",
-                          "addressLine4": "",
-                          "postCode": "E5 8DH",
-                          "postPreamble": "1 Newcome House"
-                        },
-                        "isAssetCautionaryAlerted": true,
-                        "tenure": {
-                          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-                          "startDate": "string",
-                          "endDate": "string",
-                          "type": "secure",
-                          "residents": [
-                            {
-                              "fullname": "Julie Evans",
-                              "isCautionaryAlerted": true
-                            }
-                          ]
-                        }
-                      }
-                    ],
-                    "total": 100
-                  }
-
+```json
+{
+  "results": [
+    {
+      "assetId": "00007918",
+      "assetType": "estate",
+      "assetAddress": {
+        "uprn": "100021065786",
+        "addressLine1": "Powell Road",
+        "addressLine2": "Hackney",
+        "addressLine3": "London",
+        "addressLine4": "",
+        "postCode": "E5 8DH",
+        "postPreamble": "1 Newcome House"
+      },
+      "isAssetCautionaryAlerted": true,
+      "tenure": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "startDate": "string",
+        "endDate": "string",
+        "type": "secure",
+        "residents": [
+          {
+            "fullname": "Julie Evans",
+            "isCautionaryAlerted": true
+          }
+        ]
+      }
+    }
+  ],
+  "total": 100
+}
+```
 
 ** Payload for search tenure **
 
-                  {
-                    "results": [
-                      {
-                        "id": "string",
-                        "paymentReference": "string",
-                        "householdMembers": [{
-                          "id": "TWVoZGlLaW1ha2hlCg==",
-                          "fullName": "string"
-                        }],
-                        "tenuredAsset": {
-                          "id": "string",
-                          "fullAddress": "string"
-                        },
-                        "accountType": {
-                          "code": "MW",
-                          "description": "string"
-                        },
-                        "startOfTenureDate": "string",
-                        "endOfTenureDate": "string",
-                        "tenureType": {
-                          "description": "Introductory"
-                        },
-                        "isActive": true
-                      }
-                    ],
-                    "total": 100
-                  }
+```json
+{
+  "results": [
+    {
+      "id": "string",
+      "paymentReference": "string",
+      "householdMembers": [{
+        "id": "TWVoZGlLaW1ha2hlCg==",
+        "fullName": "string"
+      }],
+      "tenuredAsset": {
+        "id": "string",
+        "fullAddress": "string"
+      },
+      "accountType": {
+        "code": "MW",
+        "description": "string"
+      },
+      "startOfTenureDate": "string",
+      "endOfTenureDate": "string",
+      "tenureType": {
+        "description": "Introductory"
+      },
+      "isActive": true
+    }
+  ],
+  "total": 100
+}
+```
 
 ** Payload for search transactions **
 
-                {
-                    "results": {
-                        "total": 2,
-                        "transactions": [
-                            {
-                                "id": "677f9d8f-ce5d-4cdd-8463-168c67dad037",
-                                "targetId": "02188fc8-9fbd-4afe-98b3-0319eb2e4ddf",
-                                "targetType": 0,
-                                "periodNo": 2,
-                                "financialYear": 2021,
-                                "financialMonth": 12,
-                                "transactionSource": "DD",
-                                "transactionType": 0,
-                                "transactionDate": "2021-12-07T23:00:00+00:00",
-                                "transactionAmount": 56.78,
-                                "paymentReference": "216704",
-                                "bankAccountNumber": "******78",
-                                "isSuspense": false,
-                                "suspenseResolutionInfo": null,
-                                "paidAmount": 56.78,
-                                "chargedAmount": 87.53,
-                                "balanceAmount": 1025.0,
-                                "housingBenefitAmount": 25.56,
-                                "address": "Apartment 22, 18 G road, SW11",
-                                "sender": {
-                                    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-                                    "fullName": "Hamid Jolany"
-                                },
-                                "sortCode" : "486734",
-                                "fund": "HSGSUN"
-                            }
-                        ]
-                    }
-                }
+```json
+{
+    "results": {
+        "total": 2,
+        "transactions": [
+            {
+                "id": "677f9d8f-ce5d-4cdd-8463-168c67dad037",
+                "targetId": "02188fc8-9fbd-4afe-98b3-0319eb2e4ddf",
+                "targetType": 0,
+                "periodNo": 2,
+                "financialYear": 2021,
+                "financialMonth": 12,
+                "transactionSource": "DD",
+                "transactionType": 0,
+                "transactionDate": "2021-12-07T23:00:00+00:00",
+                "transactionAmount": 56.78,
+                "paymentReference": "216704",
+                "bankAccountNumber": "******78",
+                "isSuspense": false,
+                "suspenseResolutionInfo": null,
+                "paidAmount": 56.78,
+                "chargedAmount": 87.53,
+                "balanceAmount": 1025.0,
+                "housingBenefitAmount": 25.56,
+                "address": "Apartment 22, 18 G road, SW11",
+                "sender": {
+                    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                    "fullName": "Hamid Jolany"
+                },
+                "sortCode" : "486734",
+                "fund": "HSGSUN"
+            }
+        ]
+    }
+}
+```
 
 ## Suggested changes
 
@@ -399,59 +406,61 @@ https://miro.com/app/board/o9J_l5sdaY0=/?moveToWidget=3074457361781027441&cot=14
 
 https://miro.com/app/board/o9J_l5sdaY0=/?moveToWidget=3074457361612955803&cot=14
 
-                    {
-                      "pageViewModel" : {
-                        "totalCount" : 345,
-                        "pageNumber" : 1,
-                        "pageSize" : 10,
-                      },
-                      "results": [
-                        {
-                          "assetId": "00007918",
-                          "assetType": "Block",
-                          "assetName": "Block 1",
-                           "properties" : [
-                    	    {
-                    	      "name": "Flat 1",
-                               "totalBalance": 1234.456,
-                               "assetAddress": {
-                                 "uprn": "100021065786",
-                                 "addressLine1": "Powell Road",
-                                 "addressLine2": "Hackney",
-                                 "addressLine3": "London",
-                                 "addressLine4": "UK",
-                                 "postCode": "E5 8DH",
-                                 "postPreamble": "1 Newcome House"
-                    	    },
-                    	      "name": "Flat 2",
-                               "totalBalance": 452.1,
-                               "assetAddress": {
-                                 "uprn": "100021065786",
-                                 "addressLine1": "Powell Road",
-                                 "addressLine2": "Hackney",
-                                 "addressLine3": "London",
-                                 "addressLine4": "UK",
-                                 "postCode": "E5 8DH",
-                                 "postPreamble": "2 Newcome House"
-                    	    }
-                    	   ],
-                          "assetAddress": {
-                            "uprn": "100021065786",
-                            "addressLine1": "Powell Road",
-                            "addressLine2": "Hackney",
-                            "addressLine3": "London",
-                            "addressLine4": "",
-                            "postCode": "E5 8DH",
-                            "postPreamble": "1 Newcome House"
-                          },
-                          "totalDwellingRent": 999.999,
-                          "totalNonDwellingRent": 999.999,
-                          "totalServiceCharges": 999.999,
-                          "totalRentalServiceCharges": 999.999,
-                          "totalBalance": 1234.456
-                        }
-                      ]
-                    }
+```json
+{
+  "pageViewModel" : {
+    "totalCount" : 345,
+    "pageNumber" : 1,
+    "pageSize" : 10,
+  },
+  "results": [
+    {
+      "assetId": "00007918",
+      "assetType": "Block",
+      "assetName": "Block 1",
+        "properties" : [
+      {
+        "name": "Flat 1",
+            "totalBalance": 1234.456,
+            "assetAddress": {
+              "uprn": "100021065786",
+              "addressLine1": "Powell Road",
+              "addressLine2": "Hackney",
+              "addressLine3": "London",
+              "addressLine4": "UK",
+              "postCode": "E5 8DH",
+              "postPreamble": "1 Newcome House"
+      },
+        "name": "Flat 2",
+            "totalBalance": 452.1,
+            "assetAddress": {
+              "uprn": "100021065786",
+              "addressLine1": "Powell Road",
+              "addressLine2": "Hackney",
+              "addressLine3": "London",
+              "addressLine4": "UK",
+              "postCode": "E5 8DH",
+              "postPreamble": "2 Newcome House"
+      }
+      ],
+      "assetAddress": {
+        "uprn": "100021065786",
+        "addressLine1": "Powell Road",
+        "addressLine2": "Hackney",
+        "addressLine3": "London",
+        "addressLine4": "",
+        "postCode": "E5 8DH",
+        "postPreamble": "1 Newcome House"
+      },
+      "totalDwellingRent": 999.999,
+      "totalNonDwellingRent": 999.999,
+      "totalServiceCharges": 999.999,
+      "totalRentalServiceCharges": 999.999,
+      "totalBalance": 1234.456
+    }
+  ]
+}
+```
 
 ## Response for account
 
@@ -459,41 +468,43 @@ GET /search/accounts?lookUpType=TenantName&searchText=Macron Court
 
 ** We need this for the search in suspense account page: **   (https://miro.com/app/board/o9J_lBF3Tho=/?moveToWidget=3074457360503265926&cot=14)
 
-              [
-                  {
-                    "id": "6f22e9ae3e8a4e0eaf46db02eb87f8e6",
-              	 “targetType” : “”,
-                    “targetId” : “6f22e9ae3e8a4e0eaf46db02eb87f8e6”,
-                    "title": "Mr",
-                    "firstName": "Kian",
-                    "middleName": "Hayward",
-                    "surname": "Evans",
-                    "preferredFirstname": "Kian",
-                    "preferredSurname": "Hayward",
-              	 "totalBalance": 319.30,
-                    "personTypes": [
-                      "HousingOfficer"
-                    ],
-                    "tenures": [
-                      {
-                        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-                        "type": "secure",
-                        "totalBalance": 105.15,
-                        "assetFullAddress": "Apartment 22, 18 G road, SW11"
-                        "postCode": "AWS-123 L18",
-                        "rentAccountNumber": "3174545"
-                      },
-              	   {
-                        "id": "2fee1a51-81f1-4dec-974b-515865889194",
-                        "type": "secure",
-                        "totalBalance": 214.15,
-                        "assetFullAddress": "Apartment 23, 18 G road, SW11"
-                        "postCode": "AWS-123 L18",
-                        "rentAccountNumber": "3174545"
-                      }
-                    ]
-                  }
-                ]
+```json
+[
+  {
+    "id": "6f22e9ae3e8a4e0eaf46db02eb87f8e6",
+  “targetType” : “”,
+    “targetId” : “6f22e9ae3e8a4e0eaf46db02eb87f8e6”,
+    "title": "Mr",
+    "firstName": "Kian",
+    "middleName": "Hayward",
+    "surname": "Evans",
+    "preferredFirstname": "Kian",
+    "preferredSurname": "Hayward",
+  "totalBalance": 319.30,
+    "personTypes": [
+      "HousingOfficer"
+    ],
+    "tenures": [
+      {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "type": "secure",
+        "totalBalance": 105.15,
+        "assetFullAddress": "Apartment 22, 18 G road, SW11"
+        "postCode": "AWS-123 L18",
+        "rentAccountNumber": "3174545"
+      },
+    {
+        "id": "2fee1a51-81f1-4dec-974b-515865889194",
+        "type": "secure",
+        "totalBalance": 214.15,
+        "assetFullAddress": "Apartment 23, 18 G road, SW11"
+        "postCode": "AWS-123 L18",
+        "rentAccountNumber": "3174545"
+      }
+    ]
+  }
+]
+```
 
 Now in endpoint GET /search/persons we don't have a field called TotalBalance (currentBalance).
 
