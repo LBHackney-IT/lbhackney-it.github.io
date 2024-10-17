@@ -91,8 +91,7 @@ const config = {
             sidebarId: 'architecturePillars',
             position: 'left',
             label: 'Architecture',
-          },
-          {
+          },          {
             type: 'docSidebar',
             sidebarId: 'apiDevelopment',
             position: 'left',
@@ -103,6 +102,12 @@ const config = {
             sidebarId: 'frontendDevelopment',
             position: 'left',
             label: 'Frontend Dev',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'apiSpecifications',
+            position: 'left',
+            label: 'API Specs',
           },
 
           // {to: '/blog', label: 'Blog', position: 'left'},
@@ -115,30 +120,39 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       // {
-        //       //   label: 'Blog',
-        //       //   to: '/blog',
-        //       // },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/LBHackney-IT',
-        //       },
-        //     ],
-        //   },
-        // ],
+        links: [
+          {
+            title: 'Hackney dev resources',
+            items: [
+              {
+                label: 'Hackney Design System',
+                to: 'https://design-system.hackney.gov.uk/',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/LBHackney-IT',
+              },
+                            {
+                label: 'Slack',
+                href: 'https://hackit-lbh.slack.com',
+              },
+            ],
+          },
+          {
+            title: 'Guidance from other professions',
+            items: [
+              {
+                label: 'User research guidance',
+                to: 'https://docs.google.com/document/d/1OL32guRxt32Z2or1_lcKDg9RPDw4_03fkKPqxnR7bGw/edit',
+              },
+              {
+                label: 'Content design guidance',
+                to: 'https://docs.google.com/document/d/1OL32guRxt32Z2or1_lcKDg9RPDw4_03fkKPqxnR7bGw/edit',
+              },
+
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} London Borough of Hackney Council. The data published here is free to re-use under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a>.`,
       },
       prism: {

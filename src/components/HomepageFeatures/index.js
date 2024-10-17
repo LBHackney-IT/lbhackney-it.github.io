@@ -41,15 +41,15 @@ const FeatureList = [
       </>
     ),
   },
-  // {
-  //   title: 'Hackney Design System',
-  //   linkTo: 'https://design-system.hackney.gov.uk/',
-  //   description: (
-  //     <>
-  //       Hackney's frontend development toolkit of reusable components.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'API Specifications',
+    linkTo: '/api-specifications',
+    description: (
+      <>
+        Hackney's API documentation
+      </>
+    ),
+  },
   // {
   //   title: 'Product Playbook',
   //   linkTo: '/product-playbook',
