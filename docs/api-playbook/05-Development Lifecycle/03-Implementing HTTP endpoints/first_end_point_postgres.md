@@ -1,7 +1,4 @@
----
-id: first_end_point_postgres
-title: Postgres End to End Training
----
+# Postgres End to End Training
 
 ## Introduction:
 

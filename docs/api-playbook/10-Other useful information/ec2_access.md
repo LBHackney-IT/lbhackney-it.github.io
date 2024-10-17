@@ -1,7 +1,4 @@
----
-id: ec2_access
-title: Access to EC2 in a private subnet from local machine
----
+# Access to EC2 in a private subnet from local machine
 ## Steps to connect to EC2 instances in a private subnet:
 
 ** Prerequisites **

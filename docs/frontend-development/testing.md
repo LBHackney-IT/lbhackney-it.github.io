@@ -1,7 +1,4 @@
----
-id: testing
-title: Testing
----
+# Testing
 ## Micro frontend quality gates
 
 We use a recurring pipeline ‘pattern’ to trigger the deployment and testing of the micro front ends.

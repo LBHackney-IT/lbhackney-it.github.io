@@ -1,7 +1,4 @@
----
-id: api_keys
-title: API Keys
----
+# API Keys
 
 ## Introduction:
 Some of our APIs still use API keys to manage access to the APIs. This was our initial approach, but it has proven to be insufficient as it does not allow for granular access control and reporting, and it is associated with a big maintenance overhead.

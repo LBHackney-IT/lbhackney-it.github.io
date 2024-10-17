@@ -1,7 +1,4 @@
----
-id: generating_tokens
-title: Generating Tokens
----
+# Generating Tokens
 
 ## What is the API authenticator?
 

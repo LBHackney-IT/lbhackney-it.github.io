@@ -1,7 +1,4 @@
----
-id: centralised_logging
-title: Centralised Logging
----
+# Centralised Logging
 
 ## Purpose:
 The purpose of this document is to outline some best practices around logging in applications.  It highlights what tools might be used for logging, a general structure of logs and what types of logs should be emitted.

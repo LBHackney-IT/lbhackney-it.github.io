@@ -1,7 +1,4 @@
----
-id: lambda_authoriser
-title: Lambda Authoriser
----
+# Lambda Authoriser
 
 
 ##  What is a Lambda authorizer?:

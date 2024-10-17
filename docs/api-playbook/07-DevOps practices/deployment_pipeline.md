@@ -1,7 +1,4 @@
----
-id: deployment_pipeline
-title: Deployment Pipeline
----
+# Deployment Pipeline
 
 ## Introduction:
 

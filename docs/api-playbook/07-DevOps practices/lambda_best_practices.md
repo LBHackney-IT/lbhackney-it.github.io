@@ -1,7 +1,4 @@
----
-id: lambda_best_practices
-title: AWS Lambda and when to use
----
+# AWS Lambda and when to use
 
 ## Introduction:
 We currently use AWS Lambda services for most of our APIs.  Lambda functions are cloud based compute services that allow you to execute code without having to provision servers.  It is also a very cost effective means of implementing API services since compute costs are only incurred when the service is called and the function runs.

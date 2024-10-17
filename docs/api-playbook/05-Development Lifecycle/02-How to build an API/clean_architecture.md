@@ -1,7 +1,4 @@
----
-id: clean_architecture
-title: Clean Architecture
----
+# Clean Architecture
 
 ## Basic Principles:
 

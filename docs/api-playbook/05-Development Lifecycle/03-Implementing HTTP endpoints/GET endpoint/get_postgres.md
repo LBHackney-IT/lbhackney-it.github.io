@@ -1,7 +1,4 @@
----
-id: get_postgres
-title: GET endpoint using postgres
----
+# GET endpoint using postgres
 
 ## GET
 GET requests are used to **read** either a single or a collection resource.

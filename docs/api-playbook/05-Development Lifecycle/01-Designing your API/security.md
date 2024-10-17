@@ -1,7 +1,4 @@
----
-id: security
-title: Security
----
+# Security
 
 ## MUST Only expose APIs via SSL:
 

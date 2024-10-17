@@ -1,7 +1,4 @@
----
-id: compatibility
-title: Compatibility
----
+# Compatibility
 
 ## MUST Maintain Backward Compatibility:
 

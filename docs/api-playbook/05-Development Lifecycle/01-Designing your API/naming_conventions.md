@@ -1,7 +1,4 @@
----
-id: naming_conventions
-title: Naming Conventions
----
+# Naming Conventions
 
 ### Name of the data source to represent the data:
 

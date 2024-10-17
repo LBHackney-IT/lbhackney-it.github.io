@@ -1,7 +1,4 @@
----
-id: infrastructure
-title: Infrastucture as Code Introduction
----
+# Infrastucture as Code Introduction
 
 ## What is Infrastucture as Code (IaC)?:
 

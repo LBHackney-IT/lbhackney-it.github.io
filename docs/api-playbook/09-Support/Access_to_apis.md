@@ -1,7 +1,4 @@
----
-id: access_to_apis
-title: Managing Access to APIs
----
+# Managing Access to APIs
 
 Within Hackney we currently use an API Authentication process to manage access to our APIs
 

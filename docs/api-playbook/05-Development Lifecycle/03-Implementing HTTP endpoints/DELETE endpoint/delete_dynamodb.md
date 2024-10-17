@@ -1,7 +1,4 @@
----
-id: delete_dynamodb
-title: DELETE endpoint using AWS DynamoDB
----
+# DELETE endpoint using AWS DynamoDB
 
 
 ### DELETE:

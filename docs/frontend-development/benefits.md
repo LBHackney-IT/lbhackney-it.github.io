@@ -1,7 +1,4 @@
----
-id: benefits
-title: Benefits of MFE and example usages
----
+# Benefits of MFE and example usages
 
 ## Independent Teams
 Microfrontends allow teams to work independantly with their own codebases, pipelines and release strategies to contribute to the same application. This leads to faster development, less dependencies and less domain knowledge required to start contributing effectively.

@@ -1,7 +1,4 @@
----
-id: how_to_guides
-title: How to consume HackIT's MicroFrontend
----
+# How to consume HackIT's MicroFrontend
 ## Introduction
 
 We have created a video that gives developers a good understanding of how buld microfronted using HackIT's tools.
@@ -13,7 +10,7 @@ The video below will go through the following sections:
 - Create new Microfrontend
 - Integrate new microfrontend with root config
 - Common microfrontend
-- Consume api in microfrontend 
+- Consume api in microfrontend
 
 
 ##  Video Tutorial

@@ -1,7 +1,4 @@
----
-id: multiple_docker_containers
-title: Composing Your Application With Multiple Docker Containers
----
+# Composing Your Application With Multiple Docker Containers
 ## Purpose:
 
 The purpose of this document is to outline how and when best to orchestrate the creation and linking of multiple containers using docker-compose.

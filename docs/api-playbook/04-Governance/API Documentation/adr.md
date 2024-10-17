@@ -1,12 +1,9 @@
----
-id: adr
-title: Architecture Decision Records
----
+# Architecture Decision Records
 ### Context
 
-Previously technical decisions were captured as part of spike documentation that was kept in project specific google drive. They were not open for other projects to review, adopt and adapt. Often, new developers were not aware of decisions as they were not aware of where to look for documentation. 
+Previously technical decisions were captured as part of spike documentation that was kept in project specific google drive. They were not open for other projects to review, adopt and adapt. Often, new developers were not aware of decisions as they were not aware of where to look for documentation.
 
-Hence, we agreed to create Architecture Decision Records (ADRs) and add them to a single github repo [https://github.com/LBHackney-IT/lbh-adrs] to ensure that we have enough documentation, that all decisions are kept in the same location that is easy to find and to document how and why a decision was reached within a codebase. 
+Hence, we agreed to create Architecture Decision Records (ADRs) and add them to a single github repo [https://github.com/LBHackney-IT/lbh-adrs] to ensure that we have enough documentation, that all decisions are kept in the same location that is easy to find and to document how and why a decision was reached within a codebase.
 
 This will also achieve governance and uniformity around all projects. Also ADRs help to give context around the decisions that were taken so that we can revisit them. Other benefits that we have identified when using ADRs are:
 - Improves onboarding for new developers

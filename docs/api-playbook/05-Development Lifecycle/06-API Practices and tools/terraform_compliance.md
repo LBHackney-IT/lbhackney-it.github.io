@@ -1,7 +1,4 @@
----
-id: terraform_compliance
-title: Terraform Compliance
----
+# Terraform Compliance
 
 ### What is Terraform?
 
@@ -52,6 +49,6 @@ These three components are all described with examples here:
 2. Run Terraform Plan
 3. Run Terraform Compliance
 
-Previously within HackIT, we would first use Terraform init and then apply straight away. However, in order to complete the terraform compliance we need to first do terraform init and plan and then run the tests to ensure the infrastructure as code is set up correctly. Once those tests pass we can run terraform apply. 
+Previously within HackIT, we would first use Terraform init and then apply straight away. However, in order to complete the terraform compliance we need to first do terraform init and plan and then run the tests to ensure the infrastructure as code is set up correctly. Once those tests pass we can run terraform apply.
 
 [Here is a example PR to show how to setup Terraform Compliance within your APIs](https://github.com/LBHackney-IT/asset-information-api/pull/45/files)

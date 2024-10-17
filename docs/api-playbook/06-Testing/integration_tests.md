@@ -1,7 +1,4 @@
----
-id: integration_tests
-title: How to write End to end tests
----
+# How to write End to end tests
 
 ## Introduction:
 

@@ -1,7 +1,4 @@
----
-id: get_opensearch
-title: GET endpoint using OpenSearch (also known as Elastic Search)
----
+# GET endpoint using OpenSearch (also known as Elastic Search)
 
 
 ## GET

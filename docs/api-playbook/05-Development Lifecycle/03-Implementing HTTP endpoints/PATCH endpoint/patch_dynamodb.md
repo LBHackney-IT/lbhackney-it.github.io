@@ -1,7 +1,4 @@
----
-id: patch_dynamodb
-title: PATCH endpoint using DynamoDB
----
+# PATCH endpoint using DynamoDB
 
 
 ### PATCH:

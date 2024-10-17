@@ -1,7 +1,4 @@
----
-id: cloudwatch-alarms
-title: CloudWatch Alarms
----
+# CloudWatch Alarms
 # CloudWatch Alarms
 
 # Introduction

@@ -1,7 +1,4 @@
----
-id: pagination
-title: Pagination
----
+# Pagination
 
 ## MUST Support Pagination:
 

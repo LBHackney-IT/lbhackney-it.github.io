@@ -1,7 +1,4 @@
----
-id: serverless_safeguard
-title: Serverless Safeguard
----
+# Serverless Safeguard
 
 **Serverless Safeguards**
 

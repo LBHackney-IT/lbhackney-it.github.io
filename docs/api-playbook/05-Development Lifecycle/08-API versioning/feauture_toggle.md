@@ -1,7 +1,4 @@
----
-id: feature-toggle
-title: Feature Toggle
----
+# Feature Toggle
 
 # Purpose
 

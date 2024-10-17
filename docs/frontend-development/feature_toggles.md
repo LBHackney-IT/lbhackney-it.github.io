@@ -1,7 +1,4 @@
----
-id: feature_toggles
-title: Feature Toggles
----
+# Feature Toggles
 
 The Configuration Api provides an endpoint for collecting feature toggles defined in the Github repo:
  [configuration-api-files](https://github.com/LBHackney-IT/configuration-api-files).

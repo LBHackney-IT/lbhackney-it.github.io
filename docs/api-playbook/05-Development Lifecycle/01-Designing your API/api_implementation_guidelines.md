@@ -1,7 +1,4 @@
----
-id: api_implementation_guidelines
-title: API Implementation Guidelines
----
+# API Implementation Guidelines
 
 ## Introduction:
 There are an increasing number of APIs being developed at Hackney and these guidelines are designed to provide a clear set of implementation guides to bring consistency between the different endpoints.

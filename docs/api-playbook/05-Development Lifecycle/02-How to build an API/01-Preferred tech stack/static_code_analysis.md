@@ -1,7 +1,4 @@
----
-id: static_code_analysis
-title: Static Code Analysis
----
+# Static Code Analysis
 
 
 We have chosen to use [ReSharper Command Line Tools](https://www.jetbrains.com/help/resharper/ReSharper_Command_Line_Tools.html).

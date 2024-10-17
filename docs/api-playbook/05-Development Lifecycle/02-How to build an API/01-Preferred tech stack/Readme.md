@@ -1,7 +1,4 @@
----
-id: preferred_tech_stack
-title: Preferred Tech Stack
----
+# Preferred Tech Stack
 
 ## APIs:
 

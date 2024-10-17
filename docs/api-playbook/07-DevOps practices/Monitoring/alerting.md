@@ -1,7 +1,4 @@
----
-id: alerting
-title: Alerting
----
+# Alerting
 
 ## Application monitoring and alerting:
 

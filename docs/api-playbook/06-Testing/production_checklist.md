@@ -1,7 +1,4 @@
----
-id: production_testing_checklist
-title: Production Testing Checklist
----
+# Production Testing Checklist
 
 **The following tasks should be completed before every API deployment into production unless there is a valid reason to not complete a given task.**:
 

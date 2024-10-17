@@ -1,7 +1,4 @@
----
-id: postgresql
-title: Creating users in PostgreSQL
----
+# Creating users in PostgreSQL
 
 ## How to add a Read-Only User to a PostgreSQL Database:
 

@@ -1,7 +1,4 @@
----
-id: gitguardian
-title: GitGuardian
----
+# GitGuardian
 
 **GitGuardian**
 

@@ -1,7 +1,4 @@
----
-id: mock_unit_tests
-title: Isolating Unit Tests
----
+# Isolating Unit Tests
 
 ## Introduction:
 

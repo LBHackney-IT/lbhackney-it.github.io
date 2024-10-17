@@ -1,7 +1,4 @@
----
-id: debugging_apis
-title: Debugging APIs in Production
----
+# Debugging APIs in Production
 ## Deployment:
 
 1. Once your PR has been merged into master branch, head to the correct view in CircleCI - this is often easiest via clicking the check (or cross) symbol next to your merged PR in the GitHub repo’s list of master branch commits - use the “Details” links to go to the relevant CircleCI view:

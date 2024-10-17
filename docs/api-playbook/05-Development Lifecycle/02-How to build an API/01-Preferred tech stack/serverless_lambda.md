@@ -1,7 +1,4 @@
----
-id: serverless_lambda
-title: Serverless Lambda Framework
----
+# Serverless Lambda Framework
 
 ## Introduction:
 

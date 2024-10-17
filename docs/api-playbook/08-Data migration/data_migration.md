@@ -1,7 +1,4 @@
----
-id: data_migration
-title: Setting Up AWS DMS
----
+# Setting Up AWS DMS
 
 # What is AWS DMS?:
 

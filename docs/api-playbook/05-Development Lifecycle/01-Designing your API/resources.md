@@ -1,7 +1,4 @@
----
-id: resources
-title: Resources
----
+# Resources
 
 ## MUST Avoid Actions — Think About Resources:
 

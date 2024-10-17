@@ -1,7 +1,4 @@
----
-id: tdd
-title: TDD
----
+# TDD
 
 ## Purpose:
 

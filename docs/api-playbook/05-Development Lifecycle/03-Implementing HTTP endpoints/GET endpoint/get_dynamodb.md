@@ -1,7 +1,4 @@
----
-id: get_dynamodb
-title: GET endpoint using AWS DynamoDB
----
+# GET endpoint using AWS DynamoDB
 
 ## GET
 GET requests are used to **read** either a single or a collection resource.

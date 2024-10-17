@@ -1,7 +1,4 @@
----
-id: source_code_management
-title: Source Code Management 
----
+# Source Code Management
 
 ## PR process for MFEs
 A pull request is a useful forum for discussing a new proposed feature. Once a given feature branch is ready, a developer can raise a pull request through their GitHub account.

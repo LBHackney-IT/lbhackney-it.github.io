@@ -1,7 +1,4 @@
----
-id: first_end_point_dynamo
-title: DynamoDB End to End Training
----
+# DynamoDB End to End Training
 
 ## Introduction:
 

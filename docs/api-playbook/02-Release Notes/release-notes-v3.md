@@ -1,7 +1,4 @@
----
-id: release-notes-v3
-title: V3
----
+# V3
 *Product Name: API Playbook*
 *Version: V3*
 *Release Date: January 2021*

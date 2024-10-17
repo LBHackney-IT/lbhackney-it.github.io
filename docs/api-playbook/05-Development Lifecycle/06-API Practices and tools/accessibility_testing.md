@@ -1,7 +1,4 @@
----
-id: accessibility_testing
-title: Accessibility Testing
----
+# Accessibility Testing
 
 ## Why it matters at HackIT
 

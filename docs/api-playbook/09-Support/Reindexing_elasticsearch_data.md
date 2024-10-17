@@ -1,7 +1,4 @@
----
-id: reindexing_elasticsearch_data
-title: Reindexing ElasticSearch data
----
+# Reindexing ElasticSearch data
 ### Introduction
 There is a need to have a process ready to synchronise data between a dynamoDB table and its equivalent (usually subset of data) index in elasticSearch in case:
 - ES cluster has been recreated as part of an improvement/maintenance task.

@@ -1,7 +1,4 @@
----
-id: post_dynamodb
-title: POST endpoint using AWS DynamoDB
----
+# POST endpoint using AWS DynamoDB
 
 ### POST:
 
