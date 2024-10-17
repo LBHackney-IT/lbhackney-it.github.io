@@ -13,7 +13,6 @@ To create support documentation that is easy to find and becomes quickly availab
 - Create a new branch in the API playbook GitHub repository.
 - Create a new file in the ‘docs’ folder of the repository.
 - Copy the template into the new file and fill in the information for each section described.
-    - The template can be found [here](./support-issue-template.md).
 - Add the following to the top of the document to make it discoverable by the sidebar module
 ```
     ---

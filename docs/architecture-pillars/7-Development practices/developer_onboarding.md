@@ -3,7 +3,7 @@
 ### Proposing changes
 We love innovation and are always open to learning, iterating and improving. To suggest improvements and changes to our existing standards and tech stack, please use our technical architecture, frontend and data communities of practice.
 - Currently adopted technologies and the ones in-trial can be found in our [tech radar](https://playbook.hackney.gov.uk/tech-radar).
-- Our preferred BE stack is documented [here](https://playbook.hackney.gov.uk/API-Playbook/preferred_tech_stack/).
+- Our preferred BE stack is documented [here](/api-playbook/Development%20Lifecycle/How%20to%20build%20an%20API/Preferred%20tech%20stack/).
 
 ### Reusable components catalogue
 Before you commence the development of a new API, micro-frontend or NuGet shared package, please refer to our [Developer Hub](https://developer-api.hackney.gov.uk/), where you can find information about available reusable components and APIs available for reuse.

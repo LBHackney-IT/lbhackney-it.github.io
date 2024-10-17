@@ -192,7 +192,7 @@ The full guide can be found here - [How to HackIT - AWS Backup](https://docs.goo
 ### Choosing the right database solution
 Hackney’s development team has preferred database technologies to use which contribute towards consistency, ensuring future maintenance and providing optimal cost. Those databases should be used for projects on a “yes, unless” basis, where exceptions could be made if a product has requirements that cannot be fulfilled by the suggested database solutions.
 
-Guidance for choosing between SQL and NoSQL databases can be found here - [Data Driven](./data_driven_guidelines.md).
+Guidance for choosing between SQL and NoSQL databases can be found here - [Data Driven](../../Development Practices/data_driven_guidelines).
 
 _What technology to use?_
 For relational databases, please use **RDS Postgres**.

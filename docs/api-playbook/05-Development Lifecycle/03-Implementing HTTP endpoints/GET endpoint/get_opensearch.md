@@ -10,7 +10,7 @@ GET requests are used to **read** either a single or a collection resource.
 
   - GET requests must NOT have a request body payload;
 
-**Note:** GET requests on collection resources should provide sufficient filter and [pagination](pagination.md) mechanisms;
+**Note:** GET requests on collection resources should provide sufficient filter and [pagination](../../../Designing%20your%20API/pagination) mechanisms;
 
 [Here is an example PR to show how to build a search endpoint using OpenSearch (Also known as ElasticSearch)](https://github.com/LBHackney-IT/housing-search-api/pull/154)
 

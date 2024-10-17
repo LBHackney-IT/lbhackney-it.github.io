@@ -36,7 +36,7 @@ Exceptions to the above
 As Hackney is moving towards a “no database direct access” way of working, this affects the way reporting tools will access data.
 For reporting purposes, any BI tool needs to access the data via an API (*as an interim solution*).
 - A Specific Reporting API, providing a full list of records per entity, is available for this purpose. You can find more about how to use and access it here (TBC).
-- Any new requests for additional endpoints, to access entities, which are not already covered by the Reporting API, should be sent to [Rashmi Shetty](rashmi.shetty@hackney.gov.uk)
+
 
 ### Future goals - reporting data
 Currently, there is an ongoing data platform project that aims to build a data lake and an easier and more consistent way to digest data for reporting and analytics purposes.

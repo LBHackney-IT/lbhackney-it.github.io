@@ -60,7 +60,7 @@ Providing a mock API and API blueprints will remove this blocker as it will give
 
 ## SwaggerHub Standards:
 
-We utilise two of SwaggerHub's functions to document the status of our APIs: **tagging API environments** and **publishing API specifications**. These allow us to track whether an API is active and what environments it is available in. These also automatically sync with our [Developer Hub](https://developer-api.hackney.gov.uk/). To see more about the Developer Hub, please refer to the [relevant page](/developer_hub).
+We utilise two of SwaggerHub's functions to document the status of our APIs: **tagging API environments** and **publishing API specifications**. These allow us to track whether an API is active and what environments it is available in. These also automatically sync with our [Developer Hub](https://developer-api.hackney.gov.uk/). To see more about the Developer Hub, please refer to the [relevant page](../../developer_hub).
 
 ### Tagging API Environments:
 

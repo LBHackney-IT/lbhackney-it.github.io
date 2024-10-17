@@ -52,7 +52,7 @@
 ## Configuration and security:
 
 1. Make sure slow query logging is enabled on any relevant RDS database instances by [steps to check or add to Terraform config?]
-2. See the [Production Testing Checklist](/production_testing) to complete this section!
+2. See the [Production Testing Checklist](../../Testing/production_checklist) to complete this section!
 
 ## Errors:
-1. See the [Production Testing Checklist](../06-Testing/production_checklist.md) to complete this section!
+1. See the [Production Testing Checklist](../../Testing/production_checklist) to complete this section!
