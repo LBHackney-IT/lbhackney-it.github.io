@@ -1,8 +1,4 @@
----
-id: boilerplate
-title: BoilerPlate
-slug: /boilerplate
----
+# BoilerPlate
 
 ## Base configuration repo
 A refresher on the benefits of microfrontends in the context of Hackney Council:
@@ -21,7 +17,7 @@ The microfrontend's that are built will still be applications that developers ar
 Setting up a MFE using single span is very easy, you can begin scaffolding an application with the CLI with the command below:
 
 ```
-npx create-single-spa 
+npx create-single-spa
 ```
 
 The CLI neatly allows you to scaffold the root config or the MFE applications.
