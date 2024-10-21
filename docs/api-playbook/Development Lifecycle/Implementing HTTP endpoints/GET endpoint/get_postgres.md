@@ -9,7 +9,7 @@ GET requests are used to **read** either a single or a collection resource.
 
   - GET requests must NOT have a request body payload;
 
-**Note:** GET requests on collection resources should provide sufficient filter and [pagination](../../../Designing%20your%20API/pagination) mechanisms;
+**Note:** GET requests on collection resources should provide sufficient filter and [pagination](../../Designing%20your%20API/pagination.md) mechanisms;
 
 We have created a video that gives developers a good understanding of how we build API Endpoints using Postgres from beginning to end, following best practices.
 

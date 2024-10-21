@@ -10,8 +10,6 @@ You can do this by looking up the API in AWS API Gateway.
 5. Choose the stage you want to use;
 6. Now you can see the entire URL inside a blue box on the top with the heading "Invoke URL";
 
-Additionally, you can find API URLs on our Developer Hub website. See more information about it [here](../Governance/developer_hub).
-
 ## How do I find out whether an API is healthy?:
 
 You can utilise AWS Canaries, which we use for uptime monitoring.
@@ -55,7 +53,3 @@ Visit [https://app.circleci.com/pipelines/github/LBHackney-IT](https://app.circl
 If you aren't subscribed to any projects, simply navigate to the'projects' tab on the sidebar to view and search for all Hackney projects.
 
 ![Circle CI Sidebar - Click on the second icon (projects) to view all projects in a workspace](./doc-images/CircleCI_sidebar.png)
-
-## Where can I find different APIs that we use at Hackney?:
-
-You can use our Developer Hub to view our APIs! See [this page](../Governance/developer_hub/) for more information.

@@ -31,10 +31,10 @@ This section collects links to documents to which we refer, and base our guideli
   - [BCP 47: Tags for Identifying Languages](https://tools.ietf.org/html/bcp47);
 ## Dissertations:
 
-  - [Roy Thomas Fielding - Architectural Styles and the Design of Network-Based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). This is the text which defines what REST is;
+  - [Roy Thomas Fielding - Architectural Styles and the Design of Network-Based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). This is the text which defines what REST is;
 ## Books:
 
-  - [REST in Practice: Hypermedia and Systems Architecture](http://www.amazon.de/REST-Practice-Hypermedia-Systems-Architecture/dp/0596805829);
+  - [REST in Practice: Hypermedia and Systems Architecture](https://www.amazon.de/REST-Practice-Hypermedia-Systems-Architecture/dp/0596805829);
 
   - [Build APIs You Won’t Hate](https://leanpub.com/build-apis-you-wont-hate);
 

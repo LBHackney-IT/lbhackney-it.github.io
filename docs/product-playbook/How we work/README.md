@@ -10,7 +10,7 @@ We work to [GDS service standards](https://www.gov.uk/service-manual/service-sta
 - Each product should start with a clear problem to solve for a defined user group, within those who live and work in Hackney.
 - High-level user needs should be identified through data, insight and research and these should inform the product direction.
 - We will be solution-agnostic and focus on solving residents’ problems in the most effective way.
-- We should only start a project when the conditions are right (defined in [Hackney Council Product Strategy 22-23](../hackney-council-product-strategy)).
+- We should only start a project when the conditions are right (defined in [Hackney Council Product Strategy 22-23](product-strategy.md)).
 
 ## Product artefacts
 

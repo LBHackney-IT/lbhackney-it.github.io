@@ -15,7 +15,7 @@ Sonar cloud is mandatory to be set up for every public and private Hackney Repos
 
 For a detailed explanation of its benefits, how to set up and update SonarCloud as per our HackIT Development Standards, please click on the link below:
 
-[Sonar Cloud](../05-Development%20Lifecycle/06-API%20Practices%20and%20tools/sonarcloud.md)
+[Sonar Cloud](../Development%20Lifecycle/API%20Practices%20and%20tools/sonarcloud.md)
 
 **Cloudwatch alarms**
 
@@ -23,7 +23,7 @@ Amazon CloudWatch is a monitoring and observability service, able to provide our
 
 For more information about the benefits of Cloudwatch alarms and how to set it up as per  “the Hackney Way”, please have a look at the following documentation:
 
-* [Cloudwatch Alarms Documentation ](../07-DevOps%20practices/Monitoring/cloudwatch-alarms.md)
+* [Cloudwatch Alarms Documentation ](../DevOps%20practices/Monitoring/cloudwatch-alarms.md)
 *
 
 **Terraform Compliance**
@@ -34,7 +34,7 @@ Terraform ensures  the code implemented by our developers meets security require
 
 For a better understanding of Terraform, please refer to the following documentation:
 
-* [Terraform Compliance](../05-Development%20Lifecycle/06-API%20Practices%20and%20tools/terraform_compliance.md)
+* [Terraform Compliance](../Development%20Lifecycle/API%20Practices%20and%20tools/terraform_compliance.md)
 
 **GitGuardian**
 
@@ -44,4 +44,4 @@ At Hackney, we are using GitGuardian to prevent secrets from leaking into reposi
 
 For more information on how we use GitGuardian at Hackney, please refer to the following documentation:
 
-* [GitGuardian ](../05-Development%20Lifecycle/06-API%20Practices%20and%20tools/gitguardian.md)
+* [GitGuardian ](../Development%20Lifecycle/API%20Practices%20and%20tools/gitguardian.md)

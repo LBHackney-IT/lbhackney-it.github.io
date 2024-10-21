@@ -3,10 +3,10 @@
 ### Proposing changes
 We love innovation and are always open to learning, iterating and improving. To suggest improvements and changes to our existing standards and tech stack, please use our technical architecture, frontend and data communities of practice.
 
-Our preferred BE stack is documented [here](/api-playbook/Development%20Lifecycle/How%20to%20build%20an%20API/Preferred%20tech%20stack/).
+Our preferred BE stack is documented [here](../../api-playbook/Development%20Lifecycle/How%20to%20build%20an%20API/Preferred%20tech%20stack/Readme.md).
 
 ### Development standards
-All technical members of a project team must familiarise themselves with [Hackney’s development standards](/ways-of-working/), which follow the Twelve Factor Application methodology. Those define the high level principles to follow when developing a digital product.
+All technical members of a project team must familiarise themselves with [Hackney’s development standards](../../ways-of-working/), which follow the Twelve Factor Application methodology. Those define the high level principles to follow when developing a digital product.
 
 ### Playbooks
 
@@ -54,7 +54,7 @@ Hackney’s playbooks reflect the standards and quality of technical implementat
 **How can I make use of it?** Please join the #frontend slack channel and drop a message there with a topic you wish to discuss at the meetup. The meetup is open to everyone so feel free to forward the calendar invitation to anyone who might be interested.
 
 ### Preferred technical stack
-Our preferred technical stack for API and backend services (e.g. Listeners) implementation can be found [here](/api-playbook/Development%20Lifecycle/How%20to%20build%20an%20API/Preferred%20tech%20stack/).
+Our preferred technical stack for API and backend services (e.g. Listeners) implementation can be found [here](../../api-playbook/Development%20Lifecycle/How%20to%20build%20an%20API/Preferred%20tech%20stack/Readme.md).
 
 To achieve consistency and future maintainability, it’s important to build services following the preferred tech stack. If a use case requires a different approach, please discuss that with one of the Senior Engineers for awareness.
 
@@ -63,23 +63,23 @@ To set up your developer workstation, please refer to the Workstation Setup Guid
 ### Technical ways of working
 
 #### Pull Request process
-Hackney’s official pull request process to follow as part of the Software Development Lifecycle can be found [here](/ways-of-working/).
+Hackney’s official pull request process to follow as part of the Software Development Lifecycle can be found [here](../../ways-of-working/).
 
 ### API specifications
-All APIs must be built in a reusable manner, unless they implement a very specific use case. Any new proposed reusable APIs or changes to the data models of existing ones should follow the [API specification assessment process](/api-specifications/assessment_process/).
+All APIs must be built in a reusable manner, unless they implement a very specific use case. Any new proposed reusable APIs or changes to the data models of existing ones should follow the [API specification assessment process](../../api-specifications/assessment_process.md).
 
 
 ### API documentation
 We use [SwaggerHub](https://app.swaggerhub.com/organizations/Hackney) to document our APIs and their respective data contracts. All new and existing APIs must have corresponding SwaggerHub documentation. It is the responsibility of the engineers who amend existing APIs to also update the documentation so it is kept up-to-date.
 - If you or your team is building new APIs or making changes to existing API endpoints, please request SwaggerHub access so you can amend the specifications documented to ensure they are always up-to-date.
 
-In addition, we also have [API specifications](/api-specifications/), which capture a summary of the user needs and any other findings related to an API.
+In addition, we also have [API specifications](../../api-specifications/README.md), which capture a summary of the user needs and any other findings related to an API.
 - A new API specification must be produced for all new APIs.
 - The API specification document should link off to the SwaggerHub page that outlines the API contract.
 - The API specification should be updated when the API introduces new endpoints or changes to existing functionality.
 
 ### Software development DevOps practices
-Our DevOps practices followed as part of the Software Development Lifecycle are documented [here](/api-playbook/DevOps%20practices/deployment_pipeline/).
+Our DevOps practices followed as part of the Software Development Lifecycle are documented [here](../../api-playbook/DevOps%20practices/deployment_pipeline.md).
 
 You will find information about:
 - Branching strategies

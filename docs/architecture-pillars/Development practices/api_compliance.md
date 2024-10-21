@@ -9,8 +9,8 @@ The APIs compliance checklist will be used as part of future Service Standard As
 
 ### Checklist
 1. The API has corresponding SwaggerHub documentation for all of the API endpoints it exposes.
-2. The API has completed the [API specification assessment process](/api-specifications/assessment_process/)
-3. The API has been developed in Hackney’s preferred tech tech stack, unless otherwise agreed and as per standards defined in our [API playbook](/api-playbook/).
+2. The API has completed the [API specification assessment process](../../api-specifications/assessment_process.md)
+3. The API has been developed in Hackney’s preferred tech tech stack, unless otherwise agreed and as per standards defined in our [API playbook](../../api-playbook/).
 4. The API has been developed following the TDD approach and has end-to-end tets in place
     - End-to-end tests guide for DynamoDB
     - End-to-end tests guide for PostgreSQL

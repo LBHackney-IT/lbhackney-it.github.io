@@ -71,7 +71,7 @@ example-api’s serverless configuration includes the basic setup for policies r
 
 In some cases it’s useful to have a bit more insight on how the Lambda is performing. In that case services like X-Ray can be implemented. They require some additional configuration to the application, but are generally relatively easy to implement at any point.
 
-[**More about X-Ray here**](../Monitoring/x_ray)
+[**More about X-Ray here**](./Monitoring/x_ray.md)
 ### Alerts:
 
-For more details on logging and alerts in general, please see our [alerting guide](../Monitoring/alerting).
+For more details on logging and alerts in general, please see our [alerting guide](./Monitoring/alerting.md).

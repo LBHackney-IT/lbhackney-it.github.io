@@ -24,7 +24,7 @@ All access to data, aside from limited support purposes, should happen via APIs.
 For all consumers, all data interactions (CRUD) should happen via an existing API endpoint.
 
 - All of our APIs need to be protected via the Lambda authorizer built by Hackney.
-    - More can be found in our Playbook [here](/api-playbook/Development%20Lifecycle/Securing%20your%20API/lambda_authoriser/).
+  - More can be found in our Playbook [here](../../api-playbook/Development%20Lifecycle/Securing%20your%20API/lambda_authoriser/index.md).
 - Requesting access to our APIs will be moved to the Developer Hub (TBC)
 - As many of our APIs are reusable, a Data contract will need to be digitally signed to confirm purposes of accessing the data (TBC)
 
@@ -52,7 +52,7 @@ Future goals include:
 
 At Hackney, our preference is to build Platform APis as microservices. We also have the concept of Service API, used for very specific use cases.
 
-[Platform vs Service API](/api-playbook/platorm_api_vs_service_api/)
+[Platform vs Service API](../../api-playbook/platorm_api_vs_service_api.md)
 
 - All of our Platform APIs are micro services - they are independent and serve a single purpose, which is interacting with data from a single domain.
 - When designing Platform APIs, you first need to know the data domain you are building it for as this drives the design of your APIs.

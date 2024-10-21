@@ -27,7 +27,7 @@ _A better test name that describes what is being tested_
 ### Unit Tests:
 
 Unit tests should provide good coverage of the various scenarios that may be encountered; from the main success scenario to any exceptionals or edge cases.
-[See More](../unit_testing)
+[See More](./unit_testing.md)
 ### Red-Green-Refactor-Commit:
 
 - **Red**

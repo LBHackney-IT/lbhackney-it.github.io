@@ -9,7 +9,7 @@ GET requests are used to **read** either a single or a collection resource.
 
   - GET requests must NOT have a request body payload;
 
-**Note:** GET requests on collection resources should provide sufficient filter and [pagination](../../../Designing%20your%20API/pagination) mechanisms;
+**Note:** GET requests on collection resources should provide sufficient filter and [pagination](../../Designing%20your%20API/pagination.md) mechanisms;
 
 [Here is an example PR to show how to build an GET endpoint using DynamoDB](https://github.com/LBHackney-IT/notes-api/pull/8/files)
 
