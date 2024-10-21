@@ -9,8 +9,8 @@ AWS Config official documentation that details additional features can be found 
 
 In Hackney, we are adopting several mechanisms to ensure that deployed resources are compliant with our preferred configuration, e.g. no database should be publicly accessible. Those include:
 - Following the [least privilege principle](../../Security/dev_least_principles/), where engineers are unable to manually create AWS resources but must instead automate the creation via IaC (infrastructure as code) and CI/CD pipelines.
-- Adopting [Terraform-compliance](https://playbook.hackney.gov.uk/API-Playbook/terraform_compliance) security and compliance testing framework for performing pre-deployment  checks to ensure only compliant resources are deployed.
-- Using [serverless safeguards](https://playbook.hackney.gov.uk/API-Playbook/serverless_safegaurd)  to ensure AWS resources provisioned via the Serverless framework are also compliant.
+- Adopting [Terraform-compliance](/api-playbook/Development%20Lifecycle/API%20Practices%20and%20tools/terraform_compliance/) security and compliance testing framework for performing pre-deployment  checks to ensure only compliant resources are deployed.
+- Using [serverless safeguards](/api-playbook/Development%20Lifecycle/API%20Practices%20and%20tools/serverless_safeguard/)  to ensure AWS resources provisioned via the Serverless framework are also compliant.
 
 However, some of those must be set up on a per-project basis, thus not guaranteeing security risks prevention by the proposed mechanisms due to no current way to ensure 100% take up amongst project teams.
 

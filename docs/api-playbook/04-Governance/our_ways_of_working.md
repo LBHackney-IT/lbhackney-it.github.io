@@ -74,8 +74,7 @@ Always follow the **least privilege** principle - only pipeline machine users ha
 
 The Twelve-Factor App Methodology is suggested by developers for smoothly working and delivering Software as a Service (SaaS) Applications or Web Apps with a focus on Microservices.
 
-More information about Hackney Council’s Development standards can be found on the link below:
-    [https://playbook.hackney.gov.uk/ways-of-working/](https://playbook.hackney.gov.uk/ways-of-working/)
+More information about Hackney Council’s Development standards can be found [here](/ways-of-working/)
 
 As part of our Organisation's ways of working and managing APIs, we encourage developers that every time an API is deployed to production to publish the Swagger definition accordingly.
 
@@ -90,7 +89,3 @@ As part of our Organisation's ways of working and managing APIs, we encourage de
 - Notifications by email if secrets are exposed, pipelines cancel deployment if errors occur.
 - AWS scans our repositories
 - GitGuardian scanning
-
-**Continuous Feedback**
-
-We are always looking at ways we can improve. If you have any ideas or suggestions please share your feedback on our playbook [GitHub Repo](https://github.com/LBHackney-IT/API-Playbook).

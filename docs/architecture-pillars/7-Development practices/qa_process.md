@@ -37,7 +37,7 @@ We utilise the page object pattern to create a set of reusable page elements tha
 - Limit the abstraction of sequential and/or ‘bundled’ actions as part of the page objects file itself. If necessary, create a separate ‘actions’ class relating to the page object which contains all of the performable actions that can be called by the steps file
 
 ### Steps files
-These are effectively the implementation of our tests, calling on the features and page objects to create our runnable test cases and generally follow the principles already outlined as part of the testing approach in our [API playbook](https://playbook.hackney.gov.uk/API-Playbook/tdd).
+These are effectively the implementation of our tests, calling on the features and page objects to create our runnable test cases and generally follow the principles already outlined as part of the testing approach in our [API playbook](/api-playbook/Testing/tdd/).
 
 
 ## Automating tests runs

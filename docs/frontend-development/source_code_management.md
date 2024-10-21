@@ -22,16 +22,3 @@ At this point, they are one of the owners and contributors of this repository. A
 
 #### Applying changes to an existing MFE
 Once a developer has created a feature branch, other contributors and/or owners will need to be involved in the approval process to ensure the MFE is still working as per their needs and expectations. The contributors and owners may or may not be working in different teams, hence they may share the same visibility at all times.
-
-
-More to add - WIP
-
-## GitHub teams and code owners
-WIP
-
-## Branch protection rules
-WIP
-
-
-## Help us improve
-We are always looking at ways we can improve. If you have any ideas or suggestions please share your feedback on our Specifications [GitHub Repo](https://github.com/LBHackney-IT/micro-frontends).

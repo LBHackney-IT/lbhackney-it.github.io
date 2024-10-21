@@ -10,7 +10,7 @@
 **If a new data store is required:**
 - Perform an evaluation if SQL or NoSQL is more suitable for your project’s needs.
     - [Guidance provided further down in this document.](#choosing-the-right-type-of-database-technology)
-- Design the API that will interact with the data and present it at the Data Meetup as per our [API specifications assessment process.](https://playbook.hackney.gov.uk/api-specifications/assessment_process/)
+- Design the API that will interact with the data and present it at the Data Meetup as per our [API specifications assessment process.](/api-specifications/assessment_process/)
 - Use Terraform to provision the new database resource in AWS.
     - Use one of the [Terraform common repository](https://github.com/LBHackney-IT/aws-hackney-common-terraform) templates (if applicable)
 

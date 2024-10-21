@@ -10,6 +10,3 @@ Some people may wonder why we have decided to publish our design specifications.
 - Learning - the specifications are a quick reference point on how we design the various APIs
 - Onboarding - a quick way to get colleagues up to speed on the design/development process
 - Continuous collaboration - as technology evolves and as we get new points of view there is always the opportunity to revisit our designs and improve on them. Our specs should be where this all kicks off.
-
-## Help us improve
-We are always looking at ways we can improve. If you have any ideas or suggestions please share your feedback on our Specifications [GitHub Repo](https://github.com/LBHackney-IT/API-Specifications).

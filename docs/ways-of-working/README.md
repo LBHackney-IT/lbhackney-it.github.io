@@ -20,7 +20,7 @@
 
 ## Development process
 
-We use the [GitHub Flow branching strategy](https://playbook.hackney.gov.uk/API-Playbook/branching_strategies/#gitflow) -
+We use the [GitHub Flow branching strategy](../api-playbook/DevOps%20practices/branching_strategies/#gitflow) -
 ![API](./img/ways2.png)
 
 1. Daily stand-ups  (5 - 10 minutes) - What is everyone doing, is anyone blocked?

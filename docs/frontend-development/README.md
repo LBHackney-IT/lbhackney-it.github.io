@@ -11,8 +11,3 @@ Setting the frontend standards across Hackney Council is an aspirational goal al
 To address some of the earlier known challenges within Hackney Council in the FE space, we are advocating the use of Micro Frontends for building modern web interfaces.
 
 Finally, in the spirit of enabling our end users and to share a common experience when engaging with the Hackney Council platform, we encourage everyone to participate, learn and share on this playbook.
-
-
-
-## Help us improve
-We are always looking at ways we can improve. If you have any ideas or suggestions please share your feedback on our Micro-Frontends [GitHub Repo](https://github.com/LBHackney-IT/micro-frontends).

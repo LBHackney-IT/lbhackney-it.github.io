@@ -1,15 +1,15 @@
 # Managing API Releases
 
-As per Hackney’s ways of working, we always try to opt for building reusable [platform APIs](https://playbook.hackney.gov.uk/API-Playbook/platform_api_vs_service_api) instead of service APIs. This approach has proven to have reduced development time, reduced duplication of effort and increased consistency across our API platform.
+As per Hackney’s ways of working, we always try to opt for building reusable [platform APIs](/api-playbook/platorm_api_vs_service_api/) instead of service APIs. This approach has proven to have reduced development time, reduced duplication of effort and increased consistency across our API platform.
 
 ### Ownership of reusable components
 As microservices are shared across multiple consuming services, there is no one single team responsible for maintaining those.
 
 All engineers have shared ownership and responsibility for the maintenance of our APIs, including:
 - Actioning security vulnerabilities.
-- Extending functionality, following our [API specification assessment process](https://playbook.hackney.gov.uk/api-specifications/assessment_process/).
+- Extending functionality, following our [API specification assessment process](/api-specifications/assessment_process/).
 
-Reusable components might have a team who are actively maintaining them as they are doing continuous work in extending the functionality as part of product development. In this case, [Hackney’s PR process](https://playbook.hackney.gov.uk/ways-of-working/) applies.
+Reusable components might have a team who are actively maintaining them as they are doing continuous work in extending the functionality as part of product development. In this case, [Hackney’s PR process](/ways-of-working/) applies.
 
 ### Releasing changes
 Hackney’s high level development lifecycle
@@ -19,14 +19,14 @@ Hackney’s high level development lifecycle
 
 
 #### Product changes deployment
-All new APIs and changes to existing APIs that are to be deployed across our AWS environments must adhere to our [API compliance](https://playbook-development.hackney.gov.uk/API-Playbook/api_compliance) requirements.
+All new APIs and changes to existing APIs that are to be deployed across our AWS environments must adhere to our [API compliance](/api-playbook/Governance/api_compliance/) requirements.
 
 #### Releasing reusable components
 As reusable components are shared amongst teams, all production deployments should be first announced on a common channel to raise awareness and allow for teams to provide feedback if they believe a deployment should be delayed.
 
 To avoid introducing blockers for teams wishing to release their code, feature flag implementation should be used, which is described later in this document.
 
-**Note:** All changes to the API design and contract of a reusable platform API should first be presented at the Data meetup as part of our [API specification assessment process](https://playbook.hackney.gov.uk/api-specifications/assessment_process/).
+**Note:** All changes to the API design and contract of a reusable platform API should first be presented at the Data meetup as part of our [API specification assessment process](/api-specifications/assessment_process/).
 
 ### Managing changes to APIs already in production
 
@@ -36,7 +36,7 @@ An API’s **major version** should be incremented if a breaking change is intro
 - Amending the API contract by removing or amending the name of an existing property.
 - Other changes to the functionality that will change the output or requires input previously not required.
 
-To increment an API’s version, create a new folder with the version name and introduce the new API endpoint(s) under the new version. To reduce duplication of code, please use a shared NuGet package to extract common code/functionality instead of replicating it across API versions. You can find more information on what NuGet packages are and how we use them [here](https://playbook-development.hackney.gov.uk/API-Playbook/nuget_packages).
+To increment an API’s version, create a new folder with the version name and introduce the new API endpoint(s) under the new version. To reduce duplication of code, please use a shared NuGet package to extract common code/functionality instead of replicating it across API versions. You can find more information on what NuGet packages are and how we use them [here](/api-playbook/Development%20Lifecycle/Architecture%20Principles/NuGet%20Packages/).
 
 **Note:** Not all existing API endpoints need to be re-created under the new version. Only API endpoints with breaking changes should have their version incremented.
 
@@ -51,6 +51,6 @@ A code change might be committed to the common repository’s main branch and re
 - Teams do not introduce blockers to other teams wishing to release or delay the release of their changes.
 - Code changes could be present in the production environment but not available to the API consumers and thus not causing potential service outages.
 
-Feature flags implementation is documented [here](https://playbook-development.hackney.gov.uk/API-Playbook/feature-toggle).
+Feature flags implementation is documented [here](/api-playbook/Development%20Lifecycle/API%20versioning/feauture_toggle/).
 
 

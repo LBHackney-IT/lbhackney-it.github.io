@@ -7,7 +7,7 @@ The list groups aspects based on Hackney’s defined architecture pillars and **
 
 All services deployed to production will be assessed against the points listed in the [Checklist](#checklist) section of this document.
 
-A guide outlining the steps for API testing for production deployment can be found [here](https://playbook.hackney.gov.uk/API-Playbook/production_testing).
+A guide outlining the steps for API testing for production deployment can be found [here](/api-playbook/Testing/production_checklist/).
 
 ### Checklist
 **Please Note:** Not all points will be applicable to resource types used by different projects. It is the responsibility of each team lead to assess which points relate to resources used by the given project and ensure they are followed.
@@ -93,11 +93,11 @@ Services that must have encryption at rest enabled:
 - AWS MSK
 
 ### API endpoints protection via an authentication mechanism
-Hackney uses a custom [Lambda authorizer](https://playbook.hackney.gov.uk/API-Playbook/generating_tokens) to provide authentication for API endpoints in AWS API Gateway.
+Hackney uses a custom [Lambda authorizer](/api-playbook/Development%20Lifecycle/Securing%20your%20API/lambda_authoriser/generating_tokens/) to provide authentication for API endpoints in AWS API Gateway.
 
-The authorizer utilises the existing [Google auth solution](https://github.com/LBHackney-IT/LBH-Google-auth) to obtain information about the end user and determine if they should be allowed to invoke an API endpoint based on their Google group membership. The authorizer also supports service authentication flow. Full documentation can be found [here](https://playbook.hackney.gov.uk/API-Playbook/generating_tokens)
+The authorizer utilises the existing [Google auth solution](https://github.com/LBHackney-IT/LBH-Google-auth) to obtain information about the end user and determine if they should be allowed to invoke an API endpoint based on their Google group membership. The authorizer also supports service authentication flow. Full documentation can be found [here](/api-playbook/Development%20Lifecycle/Securing%20your%20API/lambda_authoriser/generating_tokens/)
 
-To prevent user error, where a developer might accidentally forget to enable an authentication mechanism for an API endpoint, all APIs must include a [serverless safeguard](https://playbook.hackney.gov.uk/API-Playbook/serverless_safegaurd), which checks and stops deployment if an authorizer is not added to a given API Gateway endpoint, as part of their serverless.yml configuration.
+To prevent user error, where a developer might accidentally forget to enable an authentication mechanism for an API endpoint, all APIs must include a [serverless safeguard](/api-playbook/Development%20Lifecycle/API%20Practices%20and%20tools/serverless_safeguard/), which checks and stops deployment if an authorizer is not added to a given API Gateway endpoint, as part of their serverless.yml configuration.
 
 Example PR of changes required to implement the serverless safeguard to make the API authorizer required can be found [here](https://github.com/LBHackney-IT/lbh-base-api/pull/64).
 

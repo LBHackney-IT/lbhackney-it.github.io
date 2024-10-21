@@ -82,6 +82,3 @@ Every pull request should be small in size (unless there is a use case for a big
 - Ensure that for any changes you introduce, you keep the code base consistent.
 - Ensure that you provide a sufficient amount of information in your pull request.
 - Ensure at least one member of the team actively maintaining the repository has approved your PR before merging your code.
-
-## Help us improve
-We are always looking at ways we can improve. If you have any ideas or suggestions please share your feedback on our ways of working [GitHub Repo](https://github.com/LBHackney-IT/ways-of-working).
