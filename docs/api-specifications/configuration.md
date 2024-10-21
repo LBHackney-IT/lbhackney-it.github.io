@@ -49,7 +49,7 @@ Used to retrieve a list of configurations
   {
     "Type": "Person",
     "Configuration": {
-      "ApiUrl": "http://www.hackney.gov.uk/person"
+      "ApiUrl": "https://www.hackney.gov.uk/person"
     },
     "FeatureToggles": {
       "CreatePerson": true,
@@ -59,7 +59,7 @@ Used to retrieve a list of configurations
   {
     "Type": "ContactDetails",
     "Configuration": {
-      "ApiUrl": "http://www.hackney.gov.uk/contactdetails"
+      "ApiUrl": "https://www.hackney.gov.uk/contactdetails"
     },
     "FeatureToggles": {
       "AddContactDetails": true
@@ -68,7 +68,7 @@ Used to retrieve a list of configurations
   {
     "Type": "Tenure",
     "Configuration": {
-      "ApiUrl": "http://www.hackney.gov.uk/tenure"
+      "ApiUrl": "https://www.hackney.gov.uk/tenure"
     },
     "FeatureToggles": {
       "CreateTenure": true
@@ -77,7 +77,7 @@ Used to retrieve a list of configurations
   {
     "Domain": "Asset",
     "Configuration": {
-      "ApiUrl": "http://www.hackney.gov.uk/asset"
+      "ApiUrl": "https://www.hackney.gov.uk/asset"
     },
     "FeatureToggles": {
       "ViewAsset": false

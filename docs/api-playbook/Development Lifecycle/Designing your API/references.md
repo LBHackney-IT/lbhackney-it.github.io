@@ -38,7 +38,7 @@ This section collects links to documents to which we refer, and base our guideli
 
   - [Build APIs You Won’t Hate](https://leanpub.com/build-apis-you-wont-hate);
 
-  - [InfoQ eBook - Web APIs: From Start to Finish](http://www.infoq.com/minibooks/emag-web-api);
+  - [InfoQ eBook - Web APIs: From Start to Finish](https://www.infoq.com/minibooks/emag-web-api);
 ## Blogs:
 
-  - [Lessons-learned blog: Thoughts on RESTful API Design](http://restful-api-design.readthedocs.org/en/latest/);
+  - [Lessons-learned blog: Thoughts on RESTful API Design](https://restful-api-design.readthedocs.org/en/latest/);

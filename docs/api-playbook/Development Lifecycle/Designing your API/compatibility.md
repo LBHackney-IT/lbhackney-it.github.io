@@ -36,7 +36,7 @@ Service clients should apply the robustness principle:
 
 Service clients must be prepared for compatible API extensions of service providers:
 
-  - Be tolerant with unknown fields in the payload (see also Fowler’s ["TolerantReader"](http://martinfowler.com/bliki/TolerantReader.html) post), i.e. ignore new fields but do not eliminate them from payload if needed for subsequent PUT requests;
+  - Be tolerant with unknown fields in the payload (see also Fowler’s ["TolerantReader"](https://martinfowler.com/bliki/TolerantReader.html) post), i.e. ignore new fields but do not eliminate them from payload if needed for subsequent PUT requests;
 
   - Be prepared to handle HTTP status codes not explicitly specified in endpoint definitions. Note also, that status codes are extensible. Default handling is how you would treat the corresponding x00 code (see [RFC7231 Section 6](https://tools.ietf.org/html/rfc7231#section-6));
 
@@ -63,7 +63,7 @@ Not ignoring unknown input fields is a specific deviation from Postel’s Law (e
 In specific situations, where a (known) input field is not needed anymore, it either can stay in the API definition with "not used anymore" description or can be removed from the API definition as long as the server ignores this specific parameter.
 ## SHOULD Avoid Versioning:
 
-When changing your RESTful APIs, do so in a compatible way and avoid generating additional API versions. Multiple versions can significantly complicate understanding, testing, maintaining, evolving, operating and releasing our systems [supplementary reading](http://martinfowler.com/articles/enterpriseREST.html)).
+When changing your RESTful APIs, do so in a compatible way and avoid generating additional API versions. Multiple versions can significantly complicate understanding, testing, maintaining, evolving, operating and releasing our systems [supplementary reading](https://martinfowler.com/articles/enterpriseREST.html)).
 
 If changing an API can’t be done in a compatible way, then proceed in one of these three ways:
 

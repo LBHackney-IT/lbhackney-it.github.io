@@ -19,11 +19,11 @@ PATCH requests are used to **update parts** of single resources, i.e. where only
 
 2.  Use PATCH with partial objects to only update parts of a resource, whenever possible. (This is basically [JSON Merge Patch](https://tools.ietf.org/html/rfc7396),a specialized media type `application/merge-patch+json` that is a partial resource representation.);
 
-3.  Use PATCH with [JSON Patch](http://tools.ietf.org/html/rfc6902), a specialized media type `application/json-patch+json` that includes instructions on how to change the resource;
+3.  Use PATCH with [JSON Patch](https://tools.ietf.org/html/rfc6902), a specialized media type `application/json-patch+json` that includes instructions on how to change the resource;
 
 4.  Use POST (with a proper description of what is happening) instead of PATCH, if the request does not modify the resource in a way defined by the semantics of the media type;
 
-In practice [JSON Merge Patch](https://tools.ietf.org/html/rfc7396) quickly turns out to be too limited, especially when trying to update single objects in large collections (as part of the resource). In this cases [JSON Patch](http://tools.ietf.org/html/rfc6902) can shown its full power while still showing readable patch requests (see also [JSON patch vs. merge](http://erosb.github.io/post/json-patch-vs-merge-patch)).
+In practice [JSON Merge Patch](https://tools.ietf.org/html/rfc7396) quickly turns out to be too limited, especially when trying to update single objects in large collections (as part of the resource). In this cases [JSON Patch](https://tools.ietf.org/html/rfc6902) can shown its full power while still showing readable patch requests (see also [JSON patch vs. merge](https://erosb.github.io/post/json-patch-vs-merge-patch)).
 
 [Here is an example PR to show how to build a PATCH endpoint using DynamoDB](https://github.com/LBHackney-IT/tenure-api/pull/45/files)
 

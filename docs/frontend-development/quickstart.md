@@ -27,7 +27,7 @@ Add the following to `/etc/hosts` (to enable authentication to work in developme
 You will also need to create a GitHub access token to use in the process, which gives the CLI access to any
 private repositories.
 
-1. Go to http://github.com/settings/tokens
+1. Go to https://github.com/settings/tokens
 2. Generate a new token
 3. Name it whatever you like, and set an expiry
 4. Select all the `repo` scopes

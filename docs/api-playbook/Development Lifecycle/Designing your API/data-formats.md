@@ -78,7 +78,7 @@ Other media types may be used in following cases:
 Represent date and time format as [RFC 3339](#should-date-property-values-should-conform-to-rfc-3339).
 ### HTTP headers:
 
-HTTP headers including the proprietary headers use the [HTTP date format defined in RFC 7231](http://tools.ietf.org/html/rfc7231#section-7.1.1.1).
+HTTP headers including the proprietary headers use the [HTTP date format defined in RFC 7231](https://tools.ietf.org/html/rfc7231#section-7.1.1.1).
 
 ## MAY Use Standards for Country, Language and Currency Codes:
 
@@ -136,14 +136,14 @@ components:
 
 ## SHOULD Date property values should conform to RFC 3339:
 
-Use the date and time formats defined by [RFC 3339](http://tools.ietf.org/html/rfc3339#section-5.6):
+Use the date and time formats defined by [RFC 3339](https://tools.ietf.org/html/rfc3339#section-5.6):
 
   - for "date" use strings matching `date-fullyear "-" date-month "-" date-mday`, for example: `2015-05-28`;
 
   - for "date-time" use strings matching `full-date "T" full-time`, for example `2015-05-28T14:07:17Z`;
 
 Note that the [OpenAPI format](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#data-types)
-"date-time" corresponds to "date-time" in the RFC) and `2015-05-28` for a date (note that the OpenAPI format "date" corresponds to "full-date" in the RFC). Both are specific profiles, a subset of the international standard [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601).
+"date-time" corresponds to "date-time" in the RFC) and `2015-05-28` for a date (note that the OpenAPI format "date" corresponds to "full-date" in the RFC). Both are specific profiles, a subset of the international standard [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
 
 A zone offset may be used (both, in request and responses) — this is simply defined by the standards. However, we encourage restricting dates to UTC and without offsets. For example `2015-05-28T14:07:17Z` rather than `2015-05-28T14:07:17+00:00`. From experience we have learned that zone offsets are not easy to understand and often not correctly handled. Note also that zone offsets are different from local times that might be including daylight saving time. Localization of dates should be done by the services that provide user interfaces, if required.
 
@@ -159,10 +159,10 @@ Schema based JSON properties that are by design durations and intervals could be
 
 ## SHOULD Use standards for Language, Country and Currency:
 
-  - [ISO 3166-1-alpha2 country](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2);
+  - [ISO 3166-1-alpha2 country](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2);
 
   - [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes);
 
   - [BCP-47](https://tools.ietf.org/html/bcp47) (based on ISO 639-1) for language variants;
 
-  - [ISO 4217 currency codes](http://en.wikipedia.org/wiki/ISO_4217);
+  - [ISO 4217 currency codes](https://en.wikipedia.org/wiki/ISO_4217);

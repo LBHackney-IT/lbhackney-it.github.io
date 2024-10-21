@@ -21,7 +21,7 @@ If additional headers are required in the API then the folowing will need to be 
 Within the Serverless.yml the following  will need to be added to the events function:
 ``` yml
 events:
-      - http:
+      - https:
           path: /{proxy+}
           method: ANY
           authorizer:

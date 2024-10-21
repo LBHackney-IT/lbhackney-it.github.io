@@ -47,6 +47,6 @@ Further reading:
 
   - [Twitter](https://dev.twitter.com/rest/public/timelines);
 
-  - [Use the Index, Luke](http://use-the-index-luke.com/no-offset);
+  - [Use the Index, Luke](https://use-the-index-luke.com/no-offset);
 
   - [Paging in PostgreSQL](https://www.citusdata.com/blog/1872-joe-nelson/409-five-ways-paginate-postgres-basic-exotic);

@@ -143,37 +143,37 @@ HackIT proposal for Person data model based on the model proposed by Amido.
 
     "links": [
             {
-                "href": "http://vulnerabilities/TWVoZGlLaW1ha2hlCg==",
+                "href": "https://vulnerabilities/TWVoZGlLaW1ha2hlCg==",
                 "rel": "vulnerabilities",
                 "type" : "GET"
             },
             {
-                "href": "http://activities/TWVoZGlLaW1ha2hlCg==",
+                "href": "https://activities/TWVoZGlLaW1ha2hlCg==",
                 "rel": "activities",
                 "type" : "GET"
             },
             {
-                "href": "http://socialcare/TWVoZGlLaW1ha2hlCg==",
+                "href": "https://socialcare/TWVoZGlLaW1ha2hlCg==",
                 "rel": "socialcare",
                 "type" : "GET"
             },
             {
-                "href": "http://tenure/TWVoZGlLaW1ha2hlCg==",
+                "href": "https://tenure/TWVoZGlLaW1ha2hlCg==",
                 "rel": "tenure",
                 "type" : "GET"
             },
             {
-                "href": "http://notes/TWVoZGlLaW1ha2hlCg==",
+                "href": "https://notes/TWVoZGlLaW1ha2hlCg==",
                 "rel": "notes",
                 "type" : "GET"
             },
             {
-                "href": "http://cautionarycontact/TWVoZGlLaW1ha2hlCg==",
+                "href": "https://cautionarycontact/TWVoZGlLaW1ha2hlCg==",
                 "rel": "cautionarycontact",
                 "type" : "GET"
             },
             {
-                "href": "http://correspondenceaddresses/TWVoZGlLaW1ha2hlCg==",
+                "href": "https://correspondenceaddresses/TWVoZGlLaW1ha2hlCg==",
                 "rel": "correspondenceaddresses",
                 "type" : "GET"
             },

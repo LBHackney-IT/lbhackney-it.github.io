@@ -28,7 +28,7 @@ functions:
     environment:
       CONNECTION_STRING: Host=${ssm:/example-api/${self:provider.stage}/postgres-hostname};Port=${ssm:/example-api/${self:provider.stage}/postgres-port};Database=example-api-mirror;Username=${ssm:/example-api/${self:provider.stage}/postgres-username};Password=${ssm:/example-api/${self:provider.stage}/postgres-password}
     events:
-      - http:
+      - https:
           path: /{proxy+}
           method: ANY
           private: true

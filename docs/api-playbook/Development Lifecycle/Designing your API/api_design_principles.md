@@ -10,7 +10,7 @@ We apply the RESTful web service principles to all kind of application (micro-) 
 
 We prefer REST-based APIs with JSON payloads.
 
-An important principle for API design and usage is Postel’s Law, aka [The Robustness Principle](http://en.wikipedia.org/wiki/Robustness_principle) (see also [RFC 1122](https://tools.ietf.org/html/rfc1122)):
+An important principle for API design and usage is Postel’s Law, aka [The Robustness Principle](https://en.wikipedia.org/wiki/Robustness_principle) (see also [RFC 1122](https://tools.ietf.org/html/rfc1122)):
 > Be liberal in what you accept, be conservative in what you send.
 
 ### Reading:
@@ -25,7 +25,7 @@ Some interesting reads on the ** RESTful API ** design style and service archite
 
   * [_Web APIs: From Start to Finish_](https://www.infoq.com/minibooks/emag-web-api/) - InfoQ (eMag);
 
-  * [_Thoughts on RESTful API Design_](http://restful-api-design.readthedocs.org/en/latest/) - Lessons-learned blog;
+  * [_Thoughts on RESTful API Design_](https://restful-api-design.readthedocs.org/en/latest/) - Lessons-learned blog;
 
   * [*Architectural Styles and the Design of Network-Based Software Architectures*](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) - Roy Fielding (Dissertation);
 
