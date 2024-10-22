@@ -22,7 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'LBHackney-IT', // Usually your GitHub org/user name.
   projectName: 'lbhackney-it.github.io', // Usually your repo name.
-  trailingSlash: true,
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -61,7 +61,7 @@ const config = {
 
   plugins: [
     [
-      require.resolve("@cmfcmf/docusaurus-search-local"), 
+      require.resolve("@cmfcmf/docusaurus-search-local"),
       {
         indexBlog: false,
       }
@@ -86,12 +86,36 @@ const config = {
             position: 'left',
             label: 'Ways of working',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'architecturePillars',
-          //   position: 'left',
-          //   label: 'Architecture',
-          // },
+          {
+            type: 'docSidebar',
+            sidebarId: 'architecturePillars',
+            position: 'left',
+            label: 'Architecture',
+          },          {
+            type: 'docSidebar',
+            sidebarId: 'apiDevelopment',
+            position: 'left',
+            label: 'API Dev',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'frontendDevelopment',
+            position: 'left',
+            label: 'Frontend Dev',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'apiSpecifications',
+            position: 'left',
+            label: 'API Specs',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'productPlaybook',
+            position: 'left',
+            label: 'Product Playbook',
+          },
+
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/LBHackney-IT/lbhackney-it.github.io',
@@ -102,30 +126,39 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       // {
-        //       //   label: 'Blog',
-        //       //   to: '/blog',
-        //       // },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/LBHackney-IT',
-        //       },
-        //     ],
-        //   },
-        // ],
+        links: [
+          {
+            title: 'Hackney dev resources',
+            items: [
+              {
+                label: 'Hackney Design System',
+                to: 'https://design-system.hackney.gov.uk/',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/LBHackney-IT',
+              },
+                            {
+                label: 'Slack',
+                href: 'https://hackit-lbh.slack.com',
+              },
+            ],
+          },
+          {
+            title: 'Guidance from other professions',
+            items: [
+              {
+                label: 'User research guidance',
+                to: 'https://docs.google.com/document/d/1OL32guRxt32Z2or1_lcKDg9RPDw4_03fkKPqxnR7bGw/edit',
+              },
+              {
+                label: 'Content design guidance',
+                to: 'https://docs.google.com/document/d/1OL32guRxt32Z2or1_lcKDg9RPDw4_03fkKPqxnR7bGw/edit',
+              },
+
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} London Borough of Hackney Council. The data published here is free to re-use under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a>.`,
       },
       prism: {
