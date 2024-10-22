@@ -1,0 +1,24 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.feature   {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  padding: var(--ifm-global-spacing);
+  margin: 0.5rem;
+  transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+
+  &:hover {
+    border-color: var(--ifm-pagination-nav-color-hover);
+    text-decoration: none;
+  }
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
