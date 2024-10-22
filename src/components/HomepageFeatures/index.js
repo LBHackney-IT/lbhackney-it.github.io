@@ -52,7 +52,7 @@ const FeatureList = [
   },
   {
     title: 'Product Playbook',
-    linkTo: '/product-playbook',
+    linkTo: '/Product-Playbook',
     description: (
       <>
         Hackney's product strategy, and how the Product teams work
