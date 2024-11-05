@@ -1,7 +1,7 @@
-# The default owners for are the Hackney development team, and more specialised 
+# The default owners for are the Hackney development team, and more specialised
 # ownership can be added to directories/folders as needed.
 #
-# Note that order matters: more specific rules lower in this file will override 
+# Note that order matters: more specific rules lower in this file will override
 # the default, NOT add to it
 
-*       @LBHackney-IT/development-team
+*       @LBHackney-IT/development-team @LBHackney-IT/cloud-engineering
