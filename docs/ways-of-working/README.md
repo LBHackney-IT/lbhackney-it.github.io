@@ -1,3 +1,6 @@
+---
+sidebar_position: 0
+---
 # Our Ways of Working
 
 ## Planning/Prioritisation
