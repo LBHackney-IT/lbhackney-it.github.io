@@ -88,6 +88,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'technicalStandards',
+            position: 'left',
+            label: 'Technical standards',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'architecturePillars',
             position: 'left',
             label: 'Architecture',
