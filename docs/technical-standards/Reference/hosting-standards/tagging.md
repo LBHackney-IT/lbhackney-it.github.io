@@ -23,24 +23,28 @@ To ensure we can consistently search for, and report on, the tags we use, you sh
 ### Mandatory tags
 
 - `Application`: The full name of the application or service. This should match the name used in the Service Catalogue, e.g.  `Repairs Hub`, `Common Fate`.
-- `Team`: In the form `<team-name>: <team-email>`. This is the team responsible for the operation of the service.
+- `TeamEmail`: The email address of the team responsible for the operation of the service. Must be a valid email group, not an individual.
 - `Environment`: The name of the environment, must be one of `dev`, `stg`, `prod` or `mgmt`[^environment-tags-source].
 
 ### Optional tags
 
 - `AutomationBuildUrl`: URL of the automation build, must be a valid URL.
-- `AutomationTool`: The tool used for Infrastructure as Code, e.g. `Terraform` or `Serverless Framework`.
+- `BackupPolicy`: The backup policy to apply to the resource. If present must be one of `Dev`, `Stg`, `Preprod`, `Prod`, `Mgmt`.
 - `Confidentiality`: Data confidentiality of the infrastructure. Only applicable to infrastructure which holds data, e.g. EC2, RDS, EBS, DynamoDB, Glue, and S3. Must be one of `Internal`, `Restricted`, or `Public`[^confidentiality-tags-source].
-- `OOOShutdown`: Whether to shut an EC2 instance down out of hours. Must be `true` or `false`.
+weekend_shutdown
+ooh_shutdown
+
 
 ### FIXME(remove) Tags we're no longer using
 
-- Department (maybe useful, it's a fixed list)
-- BackupPolicy (should be inferred from environment, as they seem to match)
-- Phase
-- Stack
-- Patch Group
-- Project
+- `AutomationTool`: The tool used for Infrastructure as Code, e.g. `Terraform` or `Serverless Framework`.
+- `Department` (maybe useful, it's a fixed list)
+- `Phase`
+- `Stack`
+- `Patch Group`
+- `Project`
+- `OOOShutdown` (has been superceded)
+- `Team` (replaced by TeamEmail)
 
 [^confidentiality-tags-source]: https://github.com/LBHackney-IT/aws-tags-lbh/blob/main/variables.tf#L83
 [^environment-tags-source]: https://github.com/LBHackney-IT/aws-tags-lbh/blob/main/variables.tf#L150
