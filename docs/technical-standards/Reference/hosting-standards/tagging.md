@@ -4,19 +4,7 @@ We will tag all AWS objects, so we know they have a purpose and have a defined o
 
 ## What must be in place
 
-1. All objects in our cloud hosting providers (primarily AWS) must be tagged in line with the requirements set out below.
-
-## Monitoring
-
-The user creating the object will be notified when an object is untagged with increasing urgency.
-
-## Resolution/Escalation if the baseline isn't met
-
-1. Creation of untagged objects will be prevented by technical controls where possible.
-2. Newly created untagged objects will be forcefully and automatically shutdown/disabled if they remain untagged for 7 calendar days.
-3. Existing untagged objects will not be editable until the mandatory tags have been added.
-
-## Tags to use
+1. All objects in our cloud hosting providers (primarily AWS) *must* be tagged in line with the requirements set out below.
 
 To ensure we can consistently search for, and report on, the tags we use, you should use the following tags. In all cases, only use acronyms if you’re confident that someone from another part of the council would understand them. If in doubt, avoid acronyms and use the full term.
 
@@ -34,6 +22,15 @@ To ensure we can consistently search for, and report on, the tags we use, you sh
 weekend_shutdown
 ooh_shutdown
 
+## Monitoring
+
+The user creating the object will be notified when an object is untagged with increasing urgency.
+
+## Resolution/Escalation if the baseline isn't met
+
+1. Creation of untagged objects will be prevented by technical controls where possible.
+2. Newly created untagged objects will be forcefully and automatically shutdown/disabled if they remain untagged for 7 calendar days.
+3. Existing untagged objects will not be editable until the mandatory tags have been added.
 
 ### FIXME(remove) Tags we're no longer using
 
