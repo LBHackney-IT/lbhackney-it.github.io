@@ -21,7 +21,7 @@ To ensure we can consistently search for, and report on, the tags we use, you sh
 - `Confidentiality`: Data confidentiality of the infrastructure. Only applicable to infrastructure which holds data, e.g. EC2, RDS, EBS, DynamoDB, Glue, and S3. Must be one of `Internal`, `Restricted`, or `Public`[^confidentiality-tags-source].
 - `Department`: The service area this system serves.
 - `WeekendShutdown`: If present, regardless of the value provided the resource will be shut down over the weekend.
-- `OOHShutdown`: If present, regardless of the value provided the resource will be shut down out of working hours.
+- `OutOfHoursShutdown`: If present, regardless of the value provided the resource will be shut down out of working hours.
 
 ## Monitoring
 
