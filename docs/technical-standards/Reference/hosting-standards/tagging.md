@@ -19,8 +19,9 @@ To ensure we can consistently search for, and report on, the tags we use, you sh
 - `AutomationBuildUrl`: URL of the automation build, must be a valid URL.
 - `BackupPolicy`: The backup policy to apply to the resource. If present must be one of `Dev`, `Stg`, `Preprod`, `Prod`, `Mgmt`.
 - `Confidentiality`: Data confidentiality of the infrastructure. Only applicable to infrastructure which holds data, e.g. EC2, RDS, EBS, DynamoDB, Glue, and S3. Must be one of `Internal`, `Restricted`, or `Public`[^confidentiality-tags-source].
-weekend_shutdown
-ooh_shutdown
+- `Department`: The service area this system serves.
+- `WeekendShutdown`: If present, regardless of the value provided the resource will be shut down over the weekend.
+- `OOHShutdown`: If present, regardless of the value provided the resource will be shut down out of working hours.
 
 ## Monitoring
 
@@ -32,16 +33,9 @@ The user creating the object will be notified when an object is untagged with in
 2. Newly created untagged objects will be forcefully and automatically shutdown/disabled if they remain untagged for 7 calendar days.
 3. Existing untagged objects will not be editable until the mandatory tags have been added.
 
-### FIXME(remove) Tags we're no longer using
+## More information
 
-- `AutomationTool`: The tool used for Infrastructure as Code, e.g. `Terraform` or `Serverless Framework`.
-- `Department` (maybe useful, it's a fixed list)
-- `Phase`
-- `Stack`
-- `Patch Group`
-- `Project`
-- `OOOShutdown` (has been superceded)
-- `Team` (replaced by TeamEmail)
+See the [How to tag your infrastructure](../../How-to%20guides/tagging.md) guide.
 
 [^confidentiality-tags-source]: https://github.com/LBHackney-IT/aws-tags-lbh/blob/main/variables.tf#L83
 [^environment-tags-source]: https://github.com/LBHackney-IT/aws-tags-lbh/blob/main/variables.tf#L150
