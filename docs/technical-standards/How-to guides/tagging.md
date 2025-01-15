@@ -42,7 +42,7 @@ Here's an example for how to add `AutomationBuildUrl`:
     provider "aws" {
       default_tags {
         # ...
-        AutomationBuildUrl: var.automation_build_url
+        AutomationBuildUrl = var.automation_build_url
     }
     ```
 
