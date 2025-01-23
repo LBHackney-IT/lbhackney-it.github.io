@@ -25,4 +25,4 @@ To create support documentation that is easy to find and becomes quickly availab
     - The item to be included should match the id you have given to the support document created.
 - Create a pull request with your changes.
 
-Once the changes are approved and merged, the support documentation will be available in the [API playbook](../../api-playbook/).
+Once the changes are approved and merged, the support documentation will be available in the [API playbook](../README.md).

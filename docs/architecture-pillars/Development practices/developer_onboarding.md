@@ -6,7 +6,7 @@ We love innovation and are always open to learning, iterating and improving. To 
 Our preferred BE stack is documented [here](../../api-playbook/Development%20Lifecycle/How%20to%20build%20an%20API/Preferred%20tech%20stack/Readme.md).
 
 ### Development standards
-All technical members of a project team must familiarise themselves with [Hackney’s development standards](../../ways-of-working/), which follow the Twelve Factor Application methodology. Those define the high level principles to follow when developing a digital product.
+All technical members of a project team must familiarise themselves with [Hackney’s development standards](../../ways-of-working/README.md), which follow the Twelve Factor Application methodology. Those define the high level principles to follow when developing a digital product.
 
 ### Playbooks
 
@@ -63,7 +63,7 @@ To set up your developer workstation, please refer to the Workstation Setup Guid
 ### Technical ways of working
 
 #### Pull Request process
-Hackney’s official pull request process to follow as part of the Software Development Lifecycle can be found [here](../../ways-of-working/).
+Hackney’s official pull request process to follow as part of the Software Development Lifecycle can be found [here](../../ways-of-working/README.md).
 
 ### API specifications
 All APIs must be built in a reusable manner, unless they implement a very specific use case. Any new proposed reusable APIs or changes to the data models of existing ones should follow the [API specification assessment process](../../api-specifications/assessment_process.md).
