@@ -22,7 +22,11 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'LBHackney-IT', // Usually your GitHub org/user name.
   projectName: 'lbhackney-it.github.io', // Usually your repo name.
-  trailingSlash: false,
+
+  // CAUTION! This alters how client routing behaves but NOT the hosting
+  // provider. See https://github.com/slorber/trailing-slash-guide
+  // GitHub pages returns 404s when refreshing a page when trailingSlash: false
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
