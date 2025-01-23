@@ -1,7 +1,7 @@
 # Core AWS resources compliance checks
 
 ### Context
-At Hackney, we follow an infrastructure-as-code (IaC) approach and use Terraform to provision most of our AWS cloud resources. For our APIs, which are Lambda functions exposed via AWS API Gateway, we use the Serverless framework as it significantly speeds up the delivery and resource creation.  For more information please refer to [our playbook](../../api-playbook/).
+At Hackney, we follow an infrastructure-as-code (IaC) approach and use Terraform to provision most of our AWS cloud resources. For our APIs, which are Lambda functions exposed via AWS API Gateway, we use the Serverless framework as it significantly speeds up the delivery and resource creation.  For more information please refer to [our playbook](../../api-playbook/README.md).
 
 From a Development perspective, each project manages its own Terraform files(or Serverless configuration) to provision resources for our microservices and frontend applications. Terraform is then applied automatically as part of the CI/CD pipeline workflow during deployment.
 

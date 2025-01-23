@@ -46,7 +46,7 @@ All APIs must be built in a reusable manner, unless they implement a very specif
 We use [SwaggerHub](https://app.swaggerhub.com/organizations/Hackney) to document our APIs and their respective data contracts. All new and existing APIs must have corresponding SwaggerHub documentation. It is the responsibility of the engineers who amend existing APIs to also update the documentation so it is kept up-to-date.
 - If you or your team is building new APIs or making changes to existing API endpoints, please request SwaggerHub access so you can amend the specifications documented to ensure they are always up-to-date.
 
-In addition, we also have [API specifications](../../api-specifications/), which capture a summary of the user needs and any other findings related to an API.
+In addition, we also have [API specifications](../../api-specifications/README.md), which capture a summary of the user needs and any other findings related to an API.
 - A new API specification must be produced for all new APIs.
 - The API specification document should link off to the SwaggerHub page that outlines the API contract.
 - The API specification should be updated when the API introduces new endpoints or changes to existing functionality.
