@@ -92,6 +92,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'technicalStandards',
+            position: 'left',
+            label: 'Technical standards',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'architecturePillars',
             position: 'left',
             label: 'Architecture',
@@ -166,6 +172,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} London Borough of Hackney Council. The data published here is free to re-use under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a>.`,
       },
       prism: {
+        additionalLanguages: ['hcl'],
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
