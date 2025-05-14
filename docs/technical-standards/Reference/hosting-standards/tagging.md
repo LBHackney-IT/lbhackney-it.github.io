@@ -23,7 +23,7 @@ The following potentially data-holding resources must have the Confidentiality t
 - RDS cluster
 - DynamoDB table
 You will not be able to deploy the above resources if they are not tagged with the Confidentiality tag. 
-- `Confidentiality`: Data confidentiality of the infrastructure. Must be one of `Internal`, `Restricted`, or `Public`[^confidentiality-tags-source].
+- `Confidentiality`: Data confidentiality of the infrastructure. Must be one of `Internal`, `Restricted`, or `Public`.
 
 ### Optional tags
 
