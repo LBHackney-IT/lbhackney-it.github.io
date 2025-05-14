@@ -14,11 +14,22 @@ To ensure we can consistently search for, and report on, the tags we use, you sh
 - `TeamEmail`: The email address of the team responsible for the operation of the service. Must be a valid email group, not an individual.
 - `Environment`: The name of the environment, must be one of `dev`, `stg`, `prod` or `mgmt`[^environment-tags-source].
 
+### Mandatory tags for data-holding resources
+
+The following potentially data-holding resources must have the Confidentiality tag:
+- EC2 instance
+- EBS volume
+- RDS instance
+- RDS cluster
+- DynamoDB table
+You will not be able to deploy the above resources if they are not tagged with the Confidentiality tag. 
+- `Confidentiality`: Data confidentiality of the infrastructure. Must be one of `Internal`, `Restricted`, or `Public`[^confidentiality-tags-source].
+
 ### Optional tags
 
 - `AutomationBuildUrl`: URL of the automation build, must be a valid URL.
 - `BackupPolicy`: The backup policy to apply to the resource. If present must be one of `Dev`, `Stg`, `Preprod`, `Prod`, `Mgmt`.
-- `Confidentiality`: Data confidentiality of the infrastructure. Only applicable to infrastructure which holds data, e.g. EC2, RDS, EBS, DynamoDB, Glue, and S3. Must be one of `Internal`, `Restricted`, or `Public`[^confidentiality-tags-source].
+- `Confidentiality`: Data confidentiality of the infrastructure. Only mandatory for infrastructure which holds data, e.g. EC2, RDS, EBS, DynamoDB, Glue, and S3. Optional for all other infrastructure. Must be one of `Internal`, `Restricted`, or `Public`[^confidentiality-tags-source].
 - `Department`: The service area this system serves.
 - `WeekendShutdown`: If present, regardless of the value provided the resource will be shut down over the weekend.
 - `OutOfHoursShutdown`: If present, regardless of the value provided the resource will be shut down out of working hours.

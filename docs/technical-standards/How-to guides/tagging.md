@@ -13,7 +13,7 @@ provider "aws" {
     tags = {
       Application = "Developer Playbook"
       TeamEmail   = "developers@hackney.gov.uk"
-      Environment = "production"
+      Environment = "prod"
     }
   }
 }
