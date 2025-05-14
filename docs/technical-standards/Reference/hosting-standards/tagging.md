@@ -12,11 +12,11 @@ To ensure we can consistently search for, and report on, the tags we use, you sh
 
 - `Application`: The full name of the application or service. This should match the name used in the Service Catalogue, e.g.  `Repairs Hub`, `Common Fate`.
 - `TeamEmail`: The email address of the team responsible for the operation of the service. Must be a valid email group, not an individual.
-- `Environment`: The name of the environment, must be one of `dev`, `stg`, `prod` or `mgmt`[^environment-tags-source].
+- `Environment`: The name of the environment, must be one of `dev`, `stg`, `prod`, `pre-prod` or `mgmt`[^environment-tags-source].
 
 ### Mandatory tags for data-holding resources
 
-The following potentially data-holding resources must have the Confidentiality tag:
+The following potentially data-holding resources must have the `Confidentiality` tag:
 - EC2 instance
 - EBS volume
 - RDS instance
