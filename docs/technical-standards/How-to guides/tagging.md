@@ -13,7 +13,7 @@ provider "aws" {
     tags = {
       Application = "Developer Playbook"
       TeamEmail   = "developers@hackney.gov.uk"
-      Environment = "production"
+      Environment = "prod"
     }
   }
 }
@@ -69,7 +69,7 @@ In order to add tagging to AWS resources managed by Serverless Framework:
       stackTags:
           Application: "Developer Playbook"
           TeamEmail: "developers@hackney.gov.uk"
-          Environment: "production"
+          Environment: "prod"
 
           # For CircleCI
           AutomationBuildUrl: ${env:CIRCLE_BUILD_URL}
