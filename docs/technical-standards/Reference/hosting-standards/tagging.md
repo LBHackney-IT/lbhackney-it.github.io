@@ -16,7 +16,7 @@ To ensure we can consistently search for, and report on, the tags we use, you sh
 
 ### Mandatory tags for data-holding resources
 
-The following potentially data-holding resources must have the Confidentiality tag:
+The following potentially data-holding resources must have the `Confidentiality` tag:
 - EC2 instance
 - EBS volume
 - RDS instance
