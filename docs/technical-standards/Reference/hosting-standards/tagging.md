@@ -28,7 +28,7 @@ You will not be able to deploy the above resources if they are not tagged with t
 ### Optional tags
 
 - `AutomationBuildUrl`: URL of the automation build, must be a valid URL.
-- `BackupPolicy`: The backup policy to apply to the resource. If present must be one of `Dev`, `Stg`, `Preprod`, `Prod`, `Mgmt` _(can be lowercased, ex: 'dev', 'stg', etc)_.
+- `BackupPolicy`: The backup policy to apply to the resource. If present must be one of `Dev`, `Stg`, `Prod`, _(can be lowercase, e.g.: 'dev', 'stg', etc)_.
 - `Confidentiality`: Data confidentiality of the infrastructure. Only mandatory for infrastructure which holds data, e.g. EC2, RDS, EBS, DynamoDB, Glue, and S3. Optional for all other infrastructure. Must be one of `Internal`, `Restricted`, or `Public`[^confidentiality-tags-source].
 - `Department`: The service area this system serves.
 - `WeekendShutdown`: If present, regardless of the value provided the resource will be shut down over the weekend.
