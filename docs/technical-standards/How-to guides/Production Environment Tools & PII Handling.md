@@ -23,7 +23,7 @@ Covers all development, testing, debugging, or API interaction tools used in pro
 
 Developers must not use third-party tools to access production environments or handle production PII unless they have a clear and documented understanding of how the tool manages, stores, and transmits data, and are satisfied that its use aligns with Hackney’s security and data protection standards.
 
-Where a new tool is approved for use, supporting evidence of this assessment must be recorded in the [Hackney Service Catalogue](https://docs.google.com/spreadsheets/d/1QoinQ9Yvlr4gvUoROYAA8vDWOWyXw7-vokZmPEH296A/edit?gid=1633075159#gid=1633075159).
+Where a new tool is approved for use, supporting evidence of this assessment must be recorded in the [Hackney Service Catalogue](https://docs.google.com/spreadsheets/d/1QoinQ9Yvlr4gvUoROYAA8vDWOWyXw7-vokZmPEH296A/edit?gid=1633075159#gid=1633075159) in columns Q to U.
 
 ### Approval Process for New Tools
 
