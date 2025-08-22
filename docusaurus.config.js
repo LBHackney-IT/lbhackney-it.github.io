@@ -125,6 +125,12 @@ const config = {
             position: 'left',
             label: 'Product Playbook',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'howToGuides',
+            position: 'left',
+            label: 'How-to Guides',
+          },
 
           // {to: '/blog', label: 'Blog', position: 'left'},
           {

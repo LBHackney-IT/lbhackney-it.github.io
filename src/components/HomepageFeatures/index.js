@@ -59,6 +59,15 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'How-to guides',
+    linkTo: '/how-tos',
+    description: (
+      <>
+        How to guides for various Hackney tasks
+      </>
+    ),
+  }
   // {
   //   title: 'Data Platform',
   //   linkTo: '/data-platform-playbook',
