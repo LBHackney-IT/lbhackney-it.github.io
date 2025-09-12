@@ -33,6 +33,7 @@ You will not be able to deploy the above resources if they are not tagged with t
 - `Department`: The service area this system serves.
 - `WeekendShutdown`: If present, regardless of the value provided the resource will be shut down over the weekend.
 - `OutOfHoursShutdown`: If present, regardless of the value provided the resource will be shut down out of working hours.
+- `S3Backup`: If present, regardless of the value provided, the bucket will be backed up to the Central Backup Vault. To be consistent, add value as `true`. Do not add a tag if you do not want the bucket backed up.
 
 ## Monitoring
 
